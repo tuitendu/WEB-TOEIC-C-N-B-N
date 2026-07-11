@@ -1,0 +1,5118 @@
+[
+  {
+    "topic": "Contracts",
+    "words": [
+      {
+        "word": "abide by",
+        "pronunciation": "/əˈbaɪd baɪ/",
+        "meaning": "tuân thủ, chịu theo",
+        "partOfSpeech": "verb",
+        "example": "The two parties agreed to abide by the judge's decision.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "agreement",
+        "pronunciation": "/əˈɡriːmənt/",
+        "meaning": "sự thỏa thuận",
+        "partOfSpeech": "noun",
+        "example": "We reached an agreement on the terms of the new project.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "assurance",
+        "pronunciation": "/əˈʃɔːrəns/",
+        "meaning": "bảo đảm, chắc chắn",
+        "partOfSpeech": "noun",
+        "example": "The manager gave us his assurance that the payment would be made.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "cancel",
+        "pronunciation": "/ˈkænsl/",
+        "meaning": "hủy",
+        "partOfSpeech": "verb",
+        "example": "She had to cancel the meeting due to an emergency.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "determine",
+        "pronunciation": "/dɪˈtɜːmɪn/",
+        "meaning": "xác định, giải quyết vấn đề",
+        "partOfSpeech": "verb",
+        "example": "The committee will determine the budget for next year.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "engage",
+        "pronunciation": "/ɪnˈɡeɪdʒ/",
+        "meaning": "thuê mướn",
+        "partOfSpeech": "verb",
+        "example": "We need to engage a lawyer to review the contract.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "establish",
+        "pronunciation": "/ɪˈstæblɪʃ/",
+        "meaning": "thành lập",
+        "partOfSpeech": "verb",
+        "example": "They established a new branch office in London.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "obligate",
+        "pronunciation": "/ˈɒblɪɡeɪt/",
+        "meaning": "bắt buộc, ép buộc",
+        "partOfSpeech": "verb",
+        "example": "The contract obligates the company to pay within 30 days.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "party",
+        "pronunciation": "/ˈpɑːti/",
+        "meaning": "bên tham gia",
+        "partOfSpeech": "noun",
+        "example": "Both parties must sign the agreement to make it legal.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "provision",
+        "pronunciation": "/prəˈvɪʒn/",
+        "meaning": "sự cung cấp, cung ứng",
+        "partOfSpeech": "noun",
+        "example": "The provision of security at the event was excellent.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "resolve",
+        "pronunciation": "/rɪˈzɒlv/",
+        "meaning": "quyết định",
+        "partOfSpeech": "verb",
+        "example": "We hope to resolve this dispute quickly.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "specify",
+        "pronunciation": "/ˈspesɪfaɪ/",
+        "meaning": "chỉ rõ, quyết định rõ",
+        "partOfSpeech": "verb",
+        "example": "Please specify the exact dates you are available.",
+        "difficulty": "medium"
+      }
+    ],
+    "meaning": "Hợp đồng"
+  },
+  {
+    "topic": "Marketing",
+    "words": [
+      {
+        "word": "attract",
+        "pronunciation": "/əˈtrækt/",
+        "meaning": "thu hút",
+        "partOfSpeech": "verb",
+        "example": "The new advertisement attracted a lot of customers.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "compare",
+        "pronunciation": "/kəmˈpeə(r)/",
+        "meaning": "so sánh, đối chiếu",
+        "partOfSpeech": "verb",
+        "example": "We should compare the prices before buying.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "compete",
+        "pronunciation": "/kəmˈpiːt/",
+        "meaning": "cạnh tranh, tranh đua",
+        "partOfSpeech": "verb",
+        "example": "It is hard to compete with large supermarkets.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "consume",
+        "pronunciation": "/kənˈsjuːm/",
+        "meaning": "tiêu thụ, tiêu dùng",
+        "partOfSpeech": "verb",
+        "example": "The engine consumes a lot of fuel.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "convince",
+        "pronunciation": "/kənˈvɪns/",
+        "meaning": "thuyết phục",
+        "partOfSpeech": "verb",
+        "example": "She convinced her boss to give her a raise.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "current",
+        "pronunciation": "/ˈkʌrənt/",
+        "meaning": "hiện hành",
+        "partOfSpeech": "adjective",
+        "example": "The current economic trend is very positive.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "fad",
+        "pronunciation": "/fæd/",
+        "meaning": "mốt nhất thời",
+        "partOfSpeech": "noun",
+        "example": "This hairstyle is just a passing fad.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "inspire",
+        "pronunciation": "/ɪnˈspaɪə(r)/",
+        "meaning": "truyền cảm hứng",
+        "partOfSpeech": "verb",
+        "example": "The teacher inspired her students to work hard.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "market",
+        "pronunciation": "/ˈmɑːkɪt/",
+        "meaning": "thị trường",
+        "partOfSpeech": "noun",
+        "example": "There is a growing market for organic food.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "persuade",
+        "pronunciation": "/pəˈsweɪd/",
+        "meaning": "thuyết phục",
+        "partOfSpeech": "verb",
+        "example": "He persuaded me to join the gym.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "productive",
+        "pronunciation": "/prəˈdʌktɪv/",
+        "meaning": "năng suất",
+        "partOfSpeech": "adjective",
+        "example": "The morning meeting was highly productive.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "satisfy",
+        "pronunciation": "/ˈsætɪsfaɪ/",
+        "meaning": "hài lòng",
+        "partOfSpeech": "verb",
+        "example": "We try our best to satisfy our customers.",
+        "difficulty": "easy"
+      }
+    ],
+    "meaning": "Tiếp thị"
+  },
+  {
+    "topic": "Warranties",
+    "words": [
+      {
+        "word": "characteristic",
+        "pronunciation": "/ˌkærəktəˈrɪstɪk/",
+        "meaning": "đặc điểm, tính cách",
+        "partOfSpeech": "noun",
+        "example": "One characteristic of the bird is its bright red chest.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "consequence",
+        "pronunciation": "/ˈkɒnsɪkwəns/",
+        "meaning": "hậu quả",
+        "partOfSpeech": "noun",
+        "example": "You must accept the consequences of your actions.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "consider",
+        "pronunciation": "/kənˈsɪdə(r)/",
+        "meaning": "cân nhắc, suy nghĩ",
+        "partOfSpeech": "verb",
+        "example": "Please consider our offer carefully.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "cover",
+        "pronunciation": "/ˈkʌvə(r)/",
+        "meaning": "bản đảm, bảo hộ",
+        "partOfSpeech": "verb",
+        "example": "Does the warranty cover water damage?",
+        "difficulty": "easy"
+      },
+      {
+        "word": "expire",
+        "pronunciation": "/ɪkˈspaɪə(r)/",
+        "meaning": "hết hạn, hết hiệu lực",
+        "partOfSpeech": "verb",
+        "example": "My passport will expire next month.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "frequently",
+        "pronunciation": "/ˈfriːkwəntli/",
+        "meaning": "thường xuyên",
+        "partOfSpeech": "adverb",
+        "example": "He frequently visits his parents.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "imply",
+        "pronunciation": "/ɪmˈplaɪ/",
+        "meaning": "ý nói, ngụ ý",
+        "partOfSpeech": "verb",
+        "example": "Silence does not imply agreement.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "promise",
+        "pronunciation": "/ˈprɒmɪs/",
+        "meaning": "hứa hẹn",
+        "partOfSpeech": "verb",
+        "example": "I promise to call you when I arrive.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "protect",
+        "pronunciation": "/prəˈtekt/",
+        "meaning": "bảo vệ, bảo đảm",
+        "partOfSpeech": "verb",
+        "example": "Sunscreen helps protect your skin from damage.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "reputation",
+        "pronunciation": "/ˌrepjuˈteɪʃn/",
+        "meaning": "danh tiếng",
+        "partOfSpeech": "noun",
+        "example": "The company has an excellent reputation for quality.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "require",
+        "pronunciation": "/rɪˈkwaɪə(r)/",
+        "meaning": "yêu cầu",
+        "partOfSpeech": "verb",
+        "example": "This job requires good communication skills.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "vary",
+        "pronunciation": "/ˈveəri/",
+        "meaning": "khác nhau, thay đổi",
+        "partOfSpeech": "verb",
+        "example": "The prices vary depending on the season.",
+        "difficulty": "medium"
+      }
+    ],
+    "meaning": "Bảo hành"
+  },
+  {
+    "topic": "Business Planning",
+    "words": [
+      {
+        "word": "address",
+        "pronunciation": "/əˈdres/",
+        "meaning": "chú tâm",
+        "partOfSpeech": "verb",
+        "example": "We must address the problem immediately.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "avoid",
+        "pronunciation": "/əˈvɔɪd/",
+        "meaning": "tránh, ngăn ngừa",
+        "partOfSpeech": "verb",
+        "example": "Try to avoid making mistakes in your report.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "demonstrate",
+        "pronunciation": "/ˈdemənstreɪt/",
+        "meaning": "chứng minh",
+        "partOfSpeech": "verb",
+        "example": "He demonstrated how the machine works.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "develop",
+        "pronunciation": "/dɪˈveləp/",
+        "meaning": "phát triển",
+        "partOfSpeech": "verb",
+        "example": "The child is developing normally.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "evaluate",
+        "pronunciation": "/ɪˈvæljueɪt/",
+        "meaning": "đánh giá",
+        "partOfSpeech": "verb",
+        "example": "We need to evaluate the performance of our staff.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "gather",
+        "pronunciation": "/ˈɡæðə(r)/",
+        "meaning": "tập hợp, tập trung",
+        "partOfSpeech": "verb",
+        "example": "They gathered outside the building to protest.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "offer",
+        "pronunciation": "/ˈɒfə(r)/",
+        "meaning": "đề xuất",
+        "partOfSpeech": "verb",
+        "example": "They offered me a job in Paris.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "primarily",
+        "pronunciation": "/praɪˈmerəli/",
+        "meaning": "hàng đầu, chính",
+        "partOfSpeech": "adverb",
+        "example": "The group consists primarily of young artists.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "risk",
+        "pronunciation": "/rɪsk/",
+        "meaning": "rủi ro",
+        "partOfSpeech": "noun",
+        "example": "Smoking poses a serious health risk.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "strategy",
+        "pronunciation": "/ˈstrætədʒi/",
+        "meaning": "chiến lược",
+        "partOfSpeech": "noun",
+        "example": "Our strategy is to target a niche market.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "strong",
+        "pronunciation": "/strɒŋ/",
+        "meaning": "quyền lực, mạnh mẽ",
+        "partOfSpeech": "adjective",
+        "example": "He has a strong personality.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "substitute",
+        "pronunciation": "/ˈsʌbstɪtjuːt/",
+        "meaning": "thay thế",
+        "partOfSpeech": "verb",
+        "example": "You can substitute honey for sugar in this recipe.",
+        "difficulty": "hard"
+      }
+    ],
+    "meaning": "Lập kế hoạch kinh doanh"
+  },
+  {
+    "topic": "Conferences",
+    "words": [
+      {
+        "word": "accommodate",
+        "pronunciation": "/əˈkɒmədeɪt/",
+        "meaning": "cung cấp, chứa",
+        "partOfSpeech": "verb",
+        "example": "The hotel can accommodate up to 500 guests.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "arrangement",
+        "pronunciation": "/əˈreɪndʒmənt/",
+        "meaning": "sự tổ chức, sắp xếp",
+        "partOfSpeech": "noun",
+        "example": "We made arrangements for a taxi to pick us up.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "association",
+        "pronunciation": "/əˌsəʊʃiˈeɪʃn/",
+        "meaning": "sự liên kết, kết hợp",
+        "partOfSpeech": "noun",
+        "example": "He is a member of the local sports association.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "attend",
+        "pronunciation": "/əˈtend/",
+        "meaning": "tham dự, có mặt",
+        "partOfSpeech": "verb",
+        "example": "All staff are required to attend the meeting.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "get in touch",
+        "pronunciation": "/ɡet ɪn tʌtʃ/",
+        "meaning": "liên lạc",
+        "partOfSpeech": "verb",
+        "example": "Please get in touch if you have any questions.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "hold",
+        "pronunciation": "/həʊld/",
+        "meaning": "dàn xếp, tổ chức",
+        "partOfSpeech": "verb",
+        "example": "The election will be held next week.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "location",
+        "pronunciation": "/ləʊˈkeɪʃn/",
+        "meaning": "địa điểm",
+        "partOfSpeech": "noun",
+        "example": "The map shows the exact location of the shop.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "overcrowded",
+        "pronunciation": "/ˌəʊvəˈkraʊdɪd/",
+        "meaning": "chật chội, đông nghịt",
+        "partOfSpeech": "adjective",
+        "example": "The train was dangerously overcrowded.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "register",
+        "pronunciation": "/ˈredʒɪstə(r)/",
+        "meaning": "ghi lại, đăng ký",
+        "partOfSpeech": "verb",
+        "example": "You must register before you can access the system.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "select",
+        "pronunciation": "/sɪˈlekt/",
+        "meaning": "lựa chọn",
+        "partOfSpeech": "verb",
+        "example": "She was selected to represent the school.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "session",
+        "pronunciation": "/ˈseʃn/",
+        "meaning": "phiên họp, buổi họp",
+        "partOfSpeech": "noun",
+        "example": "The training session will last for two hours.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "take part in",
+        "pronunciation": "/teɪk pɑːt ɪn/",
+        "meaning": "tham dự",
+        "partOfSpeech": "verb",
+        "example": "How many teams will take part in the tournament?",
+        "difficulty": "easy"
+      }
+    ],
+    "meaning": "Hội nghị"
+  },
+  {
+    "topic": "Computers",
+    "words": [
+      {
+        "word": "access",
+        "pronunciation": "/ˈækses/",
+        "meaning": "truy cập",
+        "partOfSpeech": "verb",
+        "example": "Only authorized users can access the system.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "allocate",
+        "pronunciation": "/ˈæləkeɪt/",
+        "meaning": "chỉ định, phân bổ",
+        "partOfSpeech": "verb",
+        "example": "The manager will allocate resources to the projects.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "compatible",
+        "pronunciation": "/kəmˈpætəbl/",
+        "meaning": "tương hợp, tương thích",
+        "partOfSpeech": "adjective",
+        "example": "This app is compatible with iOS and Android.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "delete",
+        "pronunciation": "/dɪˈliːt/",
+        "meaning": "xóa",
+        "partOfSpeech": "verb",
+        "example": "Make sure you do not delete important files.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "display",
+        "pronunciation": "/dɪˈspleɪ/",
+        "meaning": "hiển thị",
+        "partOfSpeech": "verb",
+        "example": "The monitor displays high-resolution images.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "duplicate",
+        "pronunciation": "/ˈdjuːplɪkeɪt/",
+        "meaning": "tạo bản sao",
+        "partOfSpeech": "verb",
+        "example": "Please duplicate this disk for backup purposes.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "fail",
+        "pronunciation": "/feɪl/",
+        "meaning": "thất bại",
+        "partOfSpeech": "verb",
+        "example": "He failed the driver's license test.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "figure out",
+        "pronunciation": "/ˈfɪɡə(r) aʊt/",
+        "meaning": "tìm ra, giải quyết",
+        "partOfSpeech": "verb",
+        "example": "I need to figure out how to solve this puzzle.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "ignore",
+        "pronunciation": "/ɪɡˈnɔː(r)/",
+        "meaning": "lờ đi, không để ý",
+        "partOfSpeech": "verb",
+        "example": "Just ignore his rude comments.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "search",
+        "pronunciation": "/sɜːtʃ/",
+        "meaning": "tìm kiếm",
+        "partOfSpeech": "verb",
+        "example": "You can search for information online.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "shut down",
+        "pronunciation": "/ʃʌt daʊn/",
+        "meaning": "tắt",
+        "partOfSpeech": "verb",
+        "example": "Shut down the computer before leaving.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "warn",
+        "pronunciation": "/wɔːn/",
+        "meaning": "cảnh báo",
+        "partOfSpeech": "verb",
+        "example": "The doctor warned him to stop smoking.",
+        "difficulty": "medium"
+      }
+    ],
+    "meaning": "Máy tính & Internet"
+  },
+  {
+    "topic": "Office Technology",
+    "words": [
+      {
+        "word": "affordable",
+        "pronunciation": "/əˈfɔːdəbl/",
+        "meaning": "phải chăng, có thể chi trả",
+        "partOfSpeech": "adjective",
+        "example": "The prices at the local market are very affordable.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "as needed",
+        "pronunciation": "/æz ˈniːdɪd/",
+        "meaning": "khi cần thiết",
+        "partOfSpeech": "adverb",
+        "example": "The documents will be updated as needed.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "be in charge of",
+        "pronunciation": "/biː ɪn tʃɑːdʒ ɒv/",
+        "meaning": "đứng đầu, thường trực",
+        "partOfSpeech": "verb",
+        "example": "She is in charge of marketing.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "capacity",
+        "pronunciation": "/kəˈpæsəti/",
+        "meaning": "năng lực, khả năng",
+        "partOfSpeech": "noun",
+        "example": "The theater has a seating capacity of 500.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "durable",
+        "pronunciation": "/ˈdjʊərəbl/",
+        "meaning": "bền bỉ",
+        "partOfSpeech": "adjective",
+        "example": "These outdoor shoes are very durable.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "initiative",
+        "pronunciation": "/ɪˈnɪʃətɪv/",
+        "meaning": "bước đầu, sáng kiến",
+        "partOfSpeech": "noun",
+        "example": "The company needs employees who show initiative.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "physical",
+        "pronunciation": "/ˈfɪzɪkl/",
+        "meaning": "vật chất, cơ thể",
+        "partOfSpeech": "adjective",
+        "example": "Regular physical exercise is good for health.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "provider",
+        "pronunciation": "/prəˈvaɪdə(r)/",
+        "meaning": "nhà cung cấp",
+        "partOfSpeech": "noun",
+        "example": "The internet provider offers reliable service.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "recur",
+        "pronunciation": "/rɪˈkɜː(r)/",
+        "meaning": "lặp lại, tái diễn",
+        "partOfSpeech": "verb",
+        "example": "The problem is likely to recur if we do not fix the cause.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "reduction",
+        "pronunciation": "/rɪˈdʌkʃn/",
+        "meaning": "sự thu nhỏ, giảm",
+        "partOfSpeech": "noun",
+        "example": "There has been a dramatic reduction in crime.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "stay on top of",
+        "pronunciation": "/steɪ ɒn tɒp ɒv/",
+        "meaning": "xếp hạng đầu, nắm bắt thông tin",
+        "partOfSpeech": "verb",
+        "example": "It's hard to stay on top of the latest technology trends.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "stock",
+        "pronunciation": "/stɒk/",
+        "meaning": "kho dự trữ",
+        "partOfSpeech": "noun",
+        "example": "We have plenty of stock in the warehouse.",
+        "difficulty": "easy"
+      }
+    ],
+    "meaning": "Công nghệ văn phòng"
+  },
+  {
+    "topic": "Office Procedures",
+    "words": [
+      {
+        "word": "appreciate",
+        "pronunciation": "/əˈpriːʃieɪt/",
+        "meaning": "đánh giá cao, biết ơn",
+        "partOfSpeech": "verb",
+        "example": "I really appreciate your help with this project.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "be exposed to",
+        "pronunciation": "/biː ɪkˈspəʊzd tuː/",
+        "meaning": "bị phơi bày",
+        "partOfSpeech": "verb",
+        "example": "The skin was exposed to the sun.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "bring in",
+        "pronunciation": "/brɪŋ ɪn/",
+        "meaning": "thuê, mướn",
+        "partOfSpeech": "verb",
+        "example": "We need to bring in an expert to fix the network.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "casual",
+        "pronunciation": "/ˈkæʒuəl/",
+        "meaning": "tình cờ, ngẫu nhiên",
+        "partOfSpeech": "adjective",
+        "example": "He dressed in casual clothes for the party.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "code",
+        "pronunciation": "/kəʊd/",
+        "meaning": "luật, quy tắc",
+        "partOfSpeech": "noun",
+        "example": "You must follow the dress code of the office.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "glimpse",
+        "pronunciation": "/ɡlɪmps/",
+        "meaning": "nhìn lướt qua",
+        "partOfSpeech": "noun",
+        "example": "I caught a glimpse of the celebrity as she drove by.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "made of",
+        "pronunciation": "/meɪd ɒv/",
+        "meaning": "bao gồm, làm bằng",
+        "partOfSpeech": "adjective",
+        "example": "The table is made of solid oak.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "out of",
+        "pronunciation": "/aʊt ɒv/",
+        "meaning": "hết, cạn kiệt",
+        "partOfSpeech": "adjective",
+        "example": "The printer is out of ink.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "outdated",
+        "pronunciation": "/ˌaʊtˈdeɪtɪd/",
+        "meaning": "lỗi thời, lạc hậu",
+        "partOfSpeech": "adjective",
+        "example": "The software is outdated and needs an upgrade.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "practice",
+        "pronunciation": "/ˈpræktɪs/",
+        "meaning": "thực hành",
+        "partOfSpeech": "noun",
+        "example": "It takes a lot of practice to play the violin well.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "reinforce",
+        "pronunciation": "/ˌriːɪnˈfɔːs/",
+        "meaning": "tăng cường, củng cố",
+        "partOfSpeech": "verb",
+        "example": "The pillars were added to reinforce the wall.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "verbal",
+        "pronunciation": "/ˈvɜːbl/",
+        "meaning": "bằng lời nói",
+        "partOfSpeech": "adjective",
+        "example": "He gave us a verbal agreement.",
+        "difficulty": "medium"
+      }
+    ],
+    "meaning": "Quy trình văn phòng"
+  },
+  {
+    "topic": "Electronics",
+    "words": [
+      {
+        "word": "disk",
+        "pronunciation": "/dɪsk/",
+        "meaning": "đĩa",
+        "partOfSpeech": "noun",
+        "example": "Insert the setup disk into the drive.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "facilitate",
+        "pronunciation": "/fəˈsɪlɪteɪt/",
+        "meaning": "tạo điều kiện, làm cho dễ dàng",
+        "partOfSpeech": "verb",
+        "example": "The new highway will facilitate travel between the cities.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "network",
+        "pronunciation": "/ˈnetwɜːk/",
+        "meaning": "mạng lưới",
+        "partOfSpeech": "noun",
+        "example": "The company has a global network of computers.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "popularity",
+        "pronunciation": "/ˌpɒpjuˈlærəti/",
+        "meaning": "sự phổ biến",
+        "partOfSpeech": "noun",
+        "example": "The show has gained immense popularity recently.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "process",
+        "pronunciation": "/ˈprəʊses/",
+        "meaning": "quá trình, xử lý",
+        "partOfSpeech": "noun",
+        "example": "Learning a new language is a slow process.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "replace",
+        "pronunciation": "/rɪˈpleɪ/",
+        "meaning": "thay thế",
+        "partOfSpeech": "verb",
+        "example": "We need to replace the old printer.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "revolution",
+        "pronunciation": "/ˌrevəˈluːʃn/",
+        "meaning": "cuộc cách mạng",
+        "partOfSpeech": "noun",
+        "example": "The smartphone caused a revolution in communication.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "sharp",
+        "pronunciation": "/ʃɑːp/",
+        "meaning": "nhanh, nhọn",
+        "partOfSpeech": "adjective",
+        "example": "He is a sharp minded businessman.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "skills",
+        "pronunciation": "/skɪlz/",
+        "meaning": "kĩ năng, kĩ xảo",
+        "partOfSpeech": "noun",
+        "example": "Practical skills are essential for this course.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "software",
+        "pronunciation": "/ˈsɒftweə(r)/",
+        "meaning": "phần mềm",
+        "partOfSpeech": "noun",
+        "example": "You need to update your computer software.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "storage",
+        "pronunciation": "/ˈstɔːrɪdʒ/",
+        "meaning": "sự lưu trữ",
+        "partOfSpeech": "noun",
+        "example": "The phone has plenty of storage space.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "technical",
+        "pronunciation": "/ˈteknɪkl/",
+        "meaning": "chuyên môn, kỹ thuật",
+        "partOfSpeech": "adjective",
+        "example": "We encountered some technical issues during the show.",
+        "difficulty": "medium"
+      }
+    ],
+    "meaning": "Thiết bị điện tử"
+  },
+  {
+    "topic": "Correspondence",
+    "words": [
+      {
+        "word": "assemble",
+        "pronunciation": "/əˈsembl/",
+        "meaning": "tập hợp, thu thập",
+        "partOfSpeech": "verb",
+        "example": "We need to assemble the team for a meeting.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "beforehand",
+        "pronunciation": "/bɪˈfɔːhænd/",
+        "meaning": "trước, ưu tiên",
+        "partOfSpeech": "adverb",
+        "example": "Please complete the task beforehand.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "complicated",
+        "pronunciation": "/ˈkɒmplɪkeɪtɪd/",
+        "meaning": "phức tạp",
+        "partOfSpeech": "adjective",
+        "example": "The instructions are too complicated to follow.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "courier",
+        "pronunciation": "/ˈkʊriə(r)/",
+        "meaning": "người đưa tin, người đưa thư",
+        "partOfSpeech": "noun",
+        "example": "The package was sent via a reliable courier.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "express",
+        "pronunciation": "/ɪkˈspres/",
+        "meaning": "nhanh, hỏa tốc",
+        "partOfSpeech": "adjective",
+        "example": "This is an express train to Tokyo.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "fold",
+        "pronunciation": "/fəʊld/",
+        "meaning": "gấp lại",
+        "partOfSpeech": "verb",
+        "example": "Fold the paper in half.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "layout",
+        "pronunciation": "/ˈleɪaʊt/",
+        "meaning": "sự bố trí trang giấy",
+        "partOfSpeech": "noun",
+        "example": "The layout of the new office is modern.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "mention",
+        "pronunciation": "/ˈmenʃn/",
+        "meaning": "đề cập, sự ghi chép",
+        "partOfSpeech": "verb",
+        "example": "Did he mention where he was going?",
+        "difficulty": "easy"
+      },
+      {
+        "word": "petition",
+        "pronunciation": "/pəˈtɪʃn/",
+        "meaning": "đơn yêu cầu, kiến nghị",
+        "partOfSpeech": "noun",
+        "example": "They signed a petition to save the park.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "proof",
+        "pronunciation": "/pruːf/",
+        "meaning": "chứng minh, bằng chứng",
+        "partOfSpeech": "noun",
+        "example": "Do you have any proof of your identity?",
+        "difficulty": "easy"
+      },
+      {
+        "word": "registered",
+        "pronunciation": "/ˈredʒɪstəd/",
+        "meaning": "đăng ký",
+        "partOfSpeech": "adjective",
+        "example": "Only registered guests can attend the event.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "revise",
+        "pronunciation": "/rɪˈvaɪz/",
+        "meaning": "sửa lại",
+        "partOfSpeech": "verb",
+        "example": "You need to revise your plan.",
+        "difficulty": "medium"
+      }
+    ],
+    "meaning": "Thư tín"
+  },
+  {
+    "topic": "Job Advertising and Recruiting",
+    "words": [
+      {
+        "word": "abundant",
+        "pronunciation": "/əˈbʌndənt/",
+        "meaning": "nhiều, phong phú",
+        "partOfSpeech": "adjective",
+        "example": "Fish are abundant in this river.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "accomplishment",
+        "pronunciation": "/əˈkʌmplɪʃmənt/",
+        "meaning": "hoàn thành, đạt được",
+        "partOfSpeech": "noun",
+        "example": "Winning the championship was a great accomplishment.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "bring together",
+        "pronunciation": "/brɪŋ təˈɡeðə(r)/",
+        "meaning": "nhóm lại, gom lại",
+        "partOfSpeech": "verb",
+        "example": "The conference brings together experts from all over the world.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "candidate",
+        "pronunciation": "/ˈkændɪdət/",
+        "meaning": "ứng cử viên",
+        "partOfSpeech": "noun",
+        "example": "She is a strong candidate for the job.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "come up with",
+        "pronunciation": "/kʌm ʌp wɪð/",
+        "meaning": "ý định, nảy ra",
+        "partOfSpeech": "verb",
+        "example": "He came up with a brilliant idea for the project.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "commensurate",
+        "pronunciation": "/kəˈmenʃərət/",
+        "meaning": "tương xứng, cân xứng",
+        "partOfSpeech": "adjective",
+        "example": "Salary will be commensurate with experience.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "match",
+        "pronunciation": "/mætʃ/",
+        "meaning": "vừa, phù hợp",
+        "partOfSpeech": "verb",
+        "example": "Her shoes match her handbag perfectly.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "profile",
+        "pronunciation": "/ˈprəʊfaɪ/",
+        "meaning": "hồ sơ, lí lịch",
+        "partOfSpeech": "noun",
+        "example": "We need to create a profile of our target customer.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "qualifications",
+        "pronunciation": "/ˌkwɒlɪfɪˈkeɪʃnz/",
+        "meaning": "năng lực, bằng cấp",
+        "partOfSpeech": "noun",
+        "example": "What qualifications do you need for this job?",
+        "difficulty": "medium"
+      },
+      {
+        "word": "recruit",
+        "pronunciation": "/rɪˈkruːt/",
+        "meaning": "tuyển dụng",
+        "partOfSpeech": "verb",
+        "example": "They are trying to recruit more volunteers.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "submit",
+        "pronunciation": "/səbˈmɪt/",
+        "meaning": "nộp",
+        "partOfSpeech": "verb",
+        "example": "Submit your application before the deadline.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "time-consuming",
+        "pronunciation": "/ˈtaɪm kənˈsjuːmɪŋ/",
+        "meaning": "tốn nhiều thời gian",
+        "partOfSpeech": "adjective",
+        "example": "Writing reports is a time-consuming task.",
+        "difficulty": "medium"
+      }
+    ],
+    "meaning": "Tuyển dụng"
+  },
+  {
+    "topic": "Applying & Interviewing",
+    "words": [
+      {
+        "word": "ability",
+        "pronunciation": "/əˈbɪləti/",
+        "meaning": "khả năng, năng lực",
+        "partOfSpeech": "noun",
+        "example": "She has the ability to work under high pressure.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "apply",
+        "pronunciation": "/əˈplaɪ/",
+        "meaning": "xin việc, tìm việc",
+        "partOfSpeech": "verb",
+        "example": "You can apply for the job online.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "background",
+        "pronunciation": "/ˈbækɡraʊnd/",
+        "meaning": "lai lịch, kinh nghiệm",
+        "partOfSpeech": "noun",
+        "example": "He has a strong background in finance.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "be ready for",
+        "pronunciation": "/biː ˈredi fɔː(r)/",
+        "meaning": "sẵn sàng cho",
+        "partOfSpeech": "verb",
+        "example": "You must be ready for the interview challenges.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "call in",
+        "pronunciation": "/kɔːl ɪn/",
+        "meaning": "yêu cầu, mời tới",
+        "partOfSpeech": "verb",
+        "example": "The manager called in three candidates for a second interview.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "confidence",
+        "pronunciation": "/ˈkɒnfɪdəns/",
+        "meaning": "tự tin",
+        "partOfSpeech": "noun",
+        "example": "He answered the questions with great confidence.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "constantly",
+        "pronunciation": "/ˈkɒnstəntli/",
+        "meaning": "liên tục",
+        "partOfSpeech": "adverb",
+        "example": "The market is constantly changing.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "expert",
+        "pronunciation": "/ˈekspɜːt/",
+        "meaning": "thành thạo, chuyên gia về",
+        "partOfSpeech": "noun",
+        "example": "He is an expert in computer software.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "follow up",
+        "pronunciation": "/ˈfɒləʊ ʌp/",
+        "meaning": "tiếp tục, tiếp theo",
+        "partOfSpeech": "verb",
+        "example": "Send a thank-you note to follow up after the interview.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "hesitate",
+        "pronunciation": "/ˈhezɪteɪt/",
+        "meaning": "do tự, lưỡng lự",
+        "partOfSpeech": "verb",
+        "example": "Do not hesitate to ask questions during the meeting.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "present",
+        "pronunciation": "/prɪˈzent/",
+        "meaning": "giới thiệu, trình bày",
+        "partOfSpeech": "verb",
+        "example": "She will present the project proposal tomorrow.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "weakness",
+        "pronunciation": "/ˈwiːknəs/",
+        "meaning": "điểm yếu",
+        "partOfSpeech": "noun",
+        "example": "We discussed his strengths and weaknesses.",
+        "difficulty": "easy"
+      }
+    ],
+    "meaning": "Nộp đơn & Phỏng vấn"
+  },
+  {
+    "topic": "Hiring & Training",
+    "words": [
+      {
+        "word": "conduct",
+        "pronunciation": "/kənˈdʌkt/",
+        "meaning": "cư xử, chỉ đạo",
+        "partOfSpeech": "verb",
+        "example": "The company conducts annual performance reviews.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "generate",
+        "pronunciation": "/ˈdʒenəreɪt/",
+        "meaning": "sinh ra, tạo ra",
+        "partOfSpeech": "verb",
+        "example": "The business generates high revenue.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "hire",
+        "pronunciation": "/ˈhaɪə(r)/",
+        "meaning": "thuê, mướn",
+        "partOfSpeech": "verb",
+        "example": "They hired a new manager to lead the department.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "keep up with",
+        "pronunciation": "/kiːp ʌp wɪð/",
+        "meaning": "theo kịp với",
+        "partOfSpeech": "verb",
+        "example": "It is hard to keep up with the latest fashion.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "look up to",
+        "pronunciation": "/lʊk ʌp tuː/",
+        "meaning": "ngưỡng mộ, tôn trọng",
+        "partOfSpeech": "verb",
+        "example": "Young players look up to the team captain.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "mentor",
+        "pronunciation": "/ˈmentɔː(r)/",
+        "meaning": "cố vấn",
+        "partOfSpeech": "noun",
+        "example": "She was a great mentor to the young scientists.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "on track",
+        "pronunciation": "/ɒn træk/",
+        "meaning": "theo dõi, đúng tiến trình",
+        "partOfSpeech": "adjective",
+        "example": "Our project is on track to finish on time.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "reject",
+        "pronunciation": "/rɪˈdʒekt/",
+        "meaning": "từ chối, loại bỏ",
+        "partOfSpeech": "verb",
+        "example": "The offer was rejected immediately.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "set up",
+        "pronunciation": "/set ʌp/",
+        "meaning": "thành lập, thiết lập",
+        "partOfSpeech": "verb",
+        "example": "They plan to set up a new business next year.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "success",
+        "pronunciation": "/səkˈses/",
+        "meaning": "thành công",
+        "partOfSpeech": "noun",
+        "example": "Hard work is key to success.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "training",
+        "pronunciation": "/ˈtreɪnɪŋ/",
+        "meaning": "đào tạo, huấn luyện",
+        "partOfSpeech": "noun",
+        "example": "The staff training course will start tomorrow.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "update",
+        "pronunciation": "/ˌʌpˈdeɪt/",
+        "meaning": "cập nhật",
+        "partOfSpeech": "verb",
+        "example": "Update your system profile regularly.",
+        "difficulty": "easy"
+      }
+    ],
+    "meaning": "Tuyển dụng & Đào tạo"
+  },
+  {
+    "topic": "Salaries & Benefits",
+    "words": [
+      {
+        "word": "basis",
+        "pronunciation": "/ˈbeɪsɪs/",
+        "meaning": "nền tảng, cơ bản",
+        "partOfSpeech": "noun",
+        "example": "The salary is determined on a weekly basis.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "be aware of",
+        "pronunciation": "/biː əˈweə(r) ɒv/",
+        "meaning": "am hiểu về, biết",
+        "partOfSpeech": "verb",
+        "example": "You should be aware of the rules.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "benefits",
+        "pronunciation": "/ˈbenɪfɪts/",
+        "meaning": "trợ cấp, lợi ích",
+        "partOfSpeech": "noun",
+        "example": "Employee benefits include health insurance.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "compensate",
+        "pronunciation": "/ˈkɒmpenseɪt/",
+        "meaning": "đền bù, bồi thường",
+        "partOfSpeech": "verb",
+        "example": "They will compensate us for the delay.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "delicate",
+        "pronunciation": "/ˈdelɪkət/",
+        "meaning": "nhạy bén, khéo léo",
+        "partOfSpeech": "adjective",
+        "example": "This is a delicate situation that requires care.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "eligible",
+        "pronunciation": "/ˈelɪdʒəbl/",
+        "meaning": "đủ tư cách",
+        "partOfSpeech": "adjective",
+        "example": "You are eligible to apply for this scholarship.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "flexible",
+        "pronunciation": "/ˈfleksəbl/",
+        "meaning": "linh hoạt, dễ uốn nắn",
+        "partOfSpeech": "adjective",
+        "example": "We have flexible working hours.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "negotiate",
+        "pronunciation": "/nɪˈɡəʊʃieɪt/",
+        "meaning": "đàm phán, thương lượng",
+        "partOfSpeech": "verb",
+        "example": "We are trying to negotiate a better deal.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "raise",
+        "pronunciation": "/reɪz/",
+        "meaning": "sự tăng lương",
+        "partOfSpeech": "noun",
+        "example": "She asked her boss for a pay raise.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "retire",
+        "pronunciation": "/rɪˈtaɪə(r)//",
+        "meaning": "nghỉ hưu",
+        "partOfSpeech": "verb",
+        "example": "He retired after 40 years of service.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "vested",
+        "pronunciation": "/ˈvestɪd/",
+        "meaning": "được quyền, được phép",
+        "partOfSpeech": "adjective",
+        "example": "He has a vested interest in the business.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "wage",
+        "pronunciation": "/weɪdʒ/",
+        "meaning": "tiền công",
+        "partOfSpeech": "noun",
+        "example": "The minimum wage was increased recently.",
+        "difficulty": "medium"
+      }
+    ],
+    "meaning": "Lương & Phúc lợi"
+  },
+  {
+    "topic": "Promotions, Pensions & Awards",
+    "words": [
+      {
+        "word": "achieve",
+        "pronunciation": "/əˈtʃiːv/",
+        "meaning": "đạt được, giành được",
+        "partOfSpeech": "verb",
+        "example": "She achieved her goals through hard work.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "contribute",
+        "pronunciation": "/kənˈtrɪbjuːt/",
+        "meaning": "đóng góp, góp phần",
+        "partOfSpeech": "verb",
+        "example": "She contributed a lot of money to charity.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "dedication",
+        "pronunciation": "/ˌdedɪˈkeɪʃn/",
+        "meaning": "sự cống hiến",
+        "partOfSpeech": "noun",
+        "example": "He was awarded for his dedication to the school.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "look forward to",
+        "pronunciation": "/lʊk ˈfɔːwəd tuː/",
+        "meaning": "háo hức, mong chờ",
+        "partOfSpeech": "verb",
+        "example": "I look forward to seeing you soon.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "looked to",
+        "pronunciation": "/lʊkt tuː/",
+        "meaning": "nhờ vào, trông cậy vào",
+        "partOfSpeech": "verb",
+        "example": "We looked to him for guidance during the crisis.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "loyal",
+        "pronunciation": "/ˈlɔɪəl/",
+        "meaning": "trung thành",
+        "partOfSpeech": "adjective",
+        "example": "He is a loyal supporter of the team.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "merit",
+        "pronunciation": "/ˈmerɪt/",
+        "meaning": "công lao",
+        "partOfSpeech": "noun",
+        "example": "The award is based on artistic merit.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "obvious",
+        "pronunciation": "/ˈɒbviəs/",
+        "meaning": "rõ ràng, rành mạch",
+        "partOfSpeech": "adjective",
+        "example": "The solution to the problem was obvious.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "productive",
+        "pronunciation": "/prəˈdʌktɪv/",
+        "meaning": "hữu ích, có hiệu quả",
+        "partOfSpeech": "adjective",
+        "example": "We had a highly productive workshop yesterday.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "promote",
+        "pronunciation": "/prəˈməʊt/",
+        "meaning": "thăng chức",
+        "partOfSpeech": "verb",
+        "example": "He was promoted to sales manager.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "recognition",
+        "pronunciation": "/ˌrekəɡˈnɪʃn/",
+        "meaning": "sự công nhận, khen ngợi",
+        "partOfSpeech": "noun",
+        "example": "He received a certificate in recognition of his service.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "value",
+        "pronunciation": "/ˈvæljuː/",
+        "meaning": "giá trị",
+        "partOfSpeech": "noun",
+        "example": "The market value of the house has increased.",
+        "difficulty": "easy"
+      }
+    ],
+    "meaning": "Thăng tiến, Lương hưu & Thưởng"
+  },
+  {
+    "topic": "Shopping",
+    "words": [
+      {
+        "word": "bargain",
+        "pronunciation": "/ˈbɑːɡən/",
+        "meaning": "trả giá, mặc cả",
+        "partOfSpeech": "noun",
+        "example": "This jacket was a real bargain at half price.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "bear",
+        "pronunciation": "/beə(r)/",
+        "meaning": "chịu đựng, cam chịu",
+        "partOfSpeech": "verb",
+        "example": "I cannot bear this noise any longer.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "behavior",
+        "pronunciation": "/bɪˈheɪvjə(r)/",
+        "meaning": "cách cư xử",
+        "partOfSpeech": "noun",
+        "example": "His behavior was very strange yesterday.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "checkout",
+        "pronunciation": "/ˈtʃekaʊt/",
+        "meaning": "thanh toán",
+        "partOfSpeech": "noun",
+        "example": "Please pay at the checkout counter.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "comfort",
+        "pronunciation": "/ˈkʌmfət/",
+        "meaning": "thoải mái, tiện lợi",
+        "partOfSpeech": "noun",
+        "example": "The hotel offers high levels of comfort.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "expand",
+        "pronunciation": "/ɪkˈspænd/",
+        "meaning": "mở rộng",
+        "partOfSpeech": "verb",
+        "example": "The business plans to expand its network.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "explore",
+        "pronunciation": "/ɪkˈsplɔː(r)/",
+        "meaning": "thăm dò, khảo sát",
+        "partOfSpeech": "verb",
+        "example": "They want to explore new business avenues.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "item",
+        "pronunciation": "/ˈaɪtəm/",
+        "meaning": "điều khoản, món hàng",
+        "partOfSpeech": "noun",
+        "example": "How many items are in your shopping bag?",
+        "difficulty": "easy"
+      },
+      {
+        "word": "mandatory",
+        "pronunciation": "/ˈmændətəri/",
+        "meaning": "bắt buộc, thiết yếu",
+        "partOfSpeech": "adjective",
+        "example": "Safety training is mandatory for all workers.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "merchandise",
+        "pronunciation": "/ˈmɜːtʃəndaɪz/",
+        "meaning": "hàng hóa",
+        "partOfSpeech": "noun",
+        "example": "The shop sells high quality merchandise.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "strict",
+        "pronunciation": "/strɪkt/",
+        "meaning": "nghiêm khắc, chính xác",
+        "partOfSpeech": "adjective",
+        "example": "The school has very strict rules.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "trend",
+        "pronunciation": "/trend/",
+        "meaning": "xu hướng",
+        "partOfSpeech": "noun",
+        "example": "There is a trend towards online shopping.",
+        "difficulty": "easy"
+      }
+    ],
+    "meaning": "Mua sắm"
+  },
+  {
+    "topic": "Ordering",
+    "words": [
+      {
+        "word": "diverse",
+        "pronunciation": "/daɪˈvɜːs/",
+        "meaning": "đa dạng",
+        "partOfSpeech": "adjective",
+        "example": "The class consists of students from diverse backgrounds.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "enterprise",
+        "pronunciation": "/ˈentəpraɪz/",
+        "meaning": "công trình (dự án lớn), doanh nghiệp",
+        "partOfSpeech": "noun",
+        "example": "The project is a joint enterprise between two firms.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "essential",
+        "pronunciation": "/ɪˈsenʃl/",
+        "meaning": "cần thiết",
+        "partOfSpeech": "adjective",
+        "example": "Water is essential for life.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "everyday",
+        "pronunciation": "/ˈevrideɪ/",
+        "meaning": "hằng ngày",
+        "partOfSpeech": "adjective",
+        "example": "These shoes are designed for everyday wear.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "function",
+        "pronunciation": "/ˈfʌŋkʃn/",
+        "meaning": "chức năng",
+        "partOfSpeech": "verb",
+        "example": "The computer is functioning normally now.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "maintain",
+        "pronunciation": "/meɪnˈteɪn/",
+        "meaning": "duy trì",
+        "partOfSpeech": "verb",
+        "example": "You need to maintain a healthy weight.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "obtain",
+        "pronunciation": "/əbˈteɪn/",
+        "meaning": "đạt được, giành được",
+        "partOfSpeech": "verb",
+        "example": "You can obtain the document from our website.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "prerequisite",
+        "pronunciation": "/ˌpriːˈrekwəzɪt/",
+        "meaning": "điều kiện ưu tiên",
+        "partOfSpeech": "noun",
+        "example": "Experience is a prerequisite for this position.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "quality",
+        "pronunciation": "/ˈkwɒləti/",
+        "meaning": "chất lượng",
+        "partOfSpeech": "noun",
+        "example": "The quality of the product is excellent.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "smooth",
+        "pronunciation": "/smuːð/",
+        "meaning": "suôn sẻ, êm thấm",
+        "partOfSpeech": "adjective",
+        "example": "The meeting went smoothly without any problems.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "smooth out",
+        "pronunciation": "/smuːð aʊt/",
+        "meaning": "làm cho suôn sẻ",
+        "partOfSpeech": "verb",
+        "example": "We hope to smooth out the difficulties in the process.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "source",
+        "pronunciation": "/sɔːs/",
+        "meaning": "nguồn, nguồn gốc",
+        "partOfSpeech": "noun",
+        "example": "The sun is a clean source of energy.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "stationery",
+        "pronunciation": "/ˈsteɪʃnəri/",
+        "meaning": "đồ dùng văn phòng",
+        "partOfSpeech": "noun",
+        "example": "I need to buy some paper and stationery.",
+        "difficulty": "medium"
+      }
+    ],
+    "meaning": "Đặt hàng"
+  },
+  {
+    "topic": "Shipping",
+    "words": [
+      {
+        "word": "accurate",
+        "pronunciation": "/ˈækjərət/",
+        "meaning": "đúng, chính xác",
+        "partOfSpeech": "adjective",
+        "example": "The clock is very accurate.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "carrier",
+        "pronunciation": "/ˈkæriə(r)/",
+        "meaning": "người hoặc vật chở cái gì",
+        "partOfSpeech": "noun",
+        "example": "The mail carrier delivered the letters.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "catalog",
+        "pronunciation": "/ˈkætəlɒɡ/",
+        "meaning": "sách danh mục chi tiết",
+        "partOfSpeech": "noun",
+        "example": "Please look at our product catalog.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "fulfill",
+        "pronunciation": "/fʊlˈfɪl/",
+        "meaning": "hoàn thành",
+        "partOfSpeech": "verb",
+        "example": "He fulfilled his promise to help us.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "integral",
+        "pronunciation": "/ˈɪntɪɡrəl/",
+        "meaning": "cần thiết",
+        "partOfSpeech": "adjective",
+        "example": "Vegetables are an integral part of a healthy diet.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "inventory",
+        "pronunciation": "/ˈɪnvəntri/",
+        "meaning": "kiểm kê",
+        "partOfSpeech": "noun",
+        "example": "We do a complete inventory check every month.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "minimize",
+        "pronunciation": "/ˈmɪnɪmaɪz/",
+        "meaning": "giảm bớt, hạn chế",
+        "partOfSpeech": "verb",
+        "example": "We should try to minimize the costs.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "on hand",
+        "pronunciation": "/ɒn hænd/",
+        "meaning": "có sẵn",
+        "partOfSpeech": "adjective",
+        "example": "We have plenty of resources on hand.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "remember",
+        "pronunciation": "/rɪˈmembə(r)/",
+        "meaning": "nhớ, nhớ lại",
+        "partOfSpeech": "verb",
+        "example": "Remember to lock the door before leaving.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "ship",
+        "pronunciation": "/ʃɪp/",
+        "meaning": "vận chuyển",
+        "partOfSpeech": "verb",
+        "example": "The store ships orders within 24 hours.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "shipper",
+        "pronunciation": "/ˈʃɪpə(r)/",
+        "meaning": "người giao hàng",
+        "partOfSpeech": "noun",
+        "example": "The shipper delivered the items in good condition.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "sufficient",
+        "pronunciation": "/səˈfɪʃnt/",
+        "meaning": "đủ",
+        "partOfSpeech": "adjective",
+        "example": "There is sufficient food for everyone.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "supply",
+        "pronunciation": "/səˈplaɪ/",
+        "meaning": "cung cấp",
+        "partOfSpeech": "verb",
+        "example": "The company supplies office equipment.",
+        "difficulty": "easy"
+      }
+    ],
+    "meaning": "Vận chuyển"
+  },
+  {
+    "topic": "Invoices",
+    "words": [
+      {
+        "word": "charge",
+        "pronunciation": "/tʃɑːdʒ/",
+        "meaning": "phí tổn",
+        "partOfSpeech": "noun",
+        "example": "There is no delivery charge for local orders.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "compile",
+        "pronunciation": "/kəmˈpaɪl/",
+        "meaning": "thu thập, tập hợp",
+        "partOfSpeech": "verb",
+        "example": "We compiled a list of potential clients.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "customer",
+        "pronunciation": "/ˈkʌstəmə(r)/",
+        "meaning": "khách hàng",
+        "partOfSpeech": "noun",
+        "example": "The shop attracts a lot of regular customers.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "discount",
+        "pronunciation": "/ˈdɪskaʊnt/",
+        "meaning": "giảm giá",
+        "partOfSpeech": "noun",
+        "example": "They offered us a 10% discount on bulk orders.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "efficient",
+        "pronunciation": "/ɪˈfɪʃnt/",
+        "meaning": "có năng suất cao",
+        "partOfSpeech": "adjective",
+        "example": "The new engine is very fuel efficient.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "estimate",
+        "pronunciation": "/ˈestɪmeɪt/",
+        "meaning": "ước lượng, định giá",
+        "partOfSpeech": "verb",
+        "example": "We estimate the cost to be around $100.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "impose",
+        "pronunciation": "/ɪmˈpəʊz/",
+        "meaning": "bắt (ai phải làm gì)",
+        "partOfSpeech": "verb",
+        "example": "The government imposed a new tax on fuel.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "mistake",
+        "pronunciation": "/mɪˈsteɪk/",
+        "meaning": "lỗi",
+        "partOfSpeech": "noun",
+        "example": "There is a spelling mistake in your report.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "order",
+        "pronunciation": "/ˈɔːdə(r)/",
+        "meaning": "đơn đặt hàng",
+        "partOfSpeech": "noun",
+        "example": "Please submit your order online.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "prompt",
+        "pronunciation": "/prɒmpt/",
+        "meaning": "ngay lập tức, không chậm trễ",
+        "partOfSpeech": "adjective",
+        "example": "Thank you for your prompt response.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "rectify",
+        "pronunciation": "/ˈrektɪfaɪ/",
+        "meaning": "sửa lại, hiệu chỉnh",
+        "partOfSpeech": "verb",
+        "example": "We will rectify the error immediately.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "terms",
+        "pronunciation": "/tɜːmz/",
+        "meaning": "điều khoản",
+        "partOfSpeech": "noun",
+        "example": "Please read the terms of service carefully.",
+        "difficulty": "medium"
+      }
+    ],
+    "meaning": "Hóa đơn"
+  },
+  {
+    "topic": "Inventory",
+    "words": [
+      {
+        "word": "adjust",
+        "pronunciation": "/əˈdʒʌst/",
+        "meaning": "điều chỉnh",
+        "partOfSpeech": "verb",
+        "example": "You can adjust the settings of the machine.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "automatic",
+        "pronunciation": "/ˌɔːtəˈmætɪk/",
+        "meaning": "tự động",
+        "partOfSpeech": "adjective",
+        "example": "The door has an automatic opening system.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "crucial",
+        "pronunciation": "/ˈkruːʃl/",
+        "meaning": "quan trọng, cốt yếu",
+        "partOfSpeech": "adjective",
+        "example": "Water is crucial for human health.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "discrepancy",
+        "pronunciation": "/dɪsˈkrepənsi/",
+        "meaning": "sự bất đồng, bất hòa",
+        "partOfSpeech": "noun",
+        "example": "There was a discrepancy between the two reports.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "disturb",
+        "pronunciation": "/dɪˈstɜːb/",
+        "meaning": "làm rối loạn, gây cản trở",
+        "partOfSpeech": "verb",
+        "example": "Please do not disturb me while I am working.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "liability",
+        "pronunciation": "/ˌlaɪəˈbɪləti/",
+        "meaning": "trách nhiệm",
+        "partOfSpeech": "noun",
+        "example": "The company has a legal liability to compensate customers.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "reflect",
+        "pronunciation": "/rɪˈflekt/",
+        "meaning": "phản ánh",
+        "partOfSpeech": "verb",
+        "example": "The statistics reflect a growing trend in sales.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "run",
+        "pronunciation": "/rʌn/",
+        "meaning": "chạy, hoạt động",
+        "partOfSpeech": "verb",
+        "example": "The computer runs smoothly now.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "scan",
+        "pronunciation": "/skæn/",
+        "meaning": "kiểm tra nhanh",
+        "partOfSpeech": "verb",
+        "example": "The system scans for viruses automatically.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "subtract",
+        "pronunciation": "/səbˈtrækt/",
+        "meaning": "trừ đi, khấu trừ",
+        "partOfSpeech": "verb",
+        "example": "Subtracting 5 from 10 leaves 5.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "tedious",
+        "pronunciation": "/ˈtiːdiəs/",
+        "meaning": "chán, buồn tẻ",
+        "partOfSpeech": "adjective",
+        "example": "Cleaning the warehouse is a tedious task.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "verify",
+        "pronunciation": "/ˈverɪfaɪ/",
+        "meaning": "xác minh, kiểm tra",
+        "partOfSpeech": "verb",
+        "example": "Please verify your email address to register.",
+        "difficulty": "medium"
+      }
+    ],
+    "meaning": "Kiểm kê kho"
+  },
+  {
+    "topic": "Banking",
+    "words": [
+      {
+        "word": "accept",
+        "pronunciation": "/əkˈsept/",
+        "meaning": "nhận, chấp nhận",
+        "partOfSpeech": "verb",
+        "example": "Do you accept credit cards here?",
+        "difficulty": "easy"
+      },
+      {
+        "word": "balance",
+        "pronunciation": "/ˈbæləns/",
+        "meaning": "số dư tài khoản",
+        "partOfSpeech": "noun",
+        "example": "Check your account balance at the ATM.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "borrow",
+        "pronunciation": "/ˈbɒrəʊ/",
+        "meaning": "vay, mượn",
+        "partOfSpeech": "verb",
+        "example": "I need to borrow some money from the bank.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "cautious",
+        "pronunciation": "/ˈkɔːʃəs/",
+        "meaning": "thận trọng",
+        "partOfSpeech": "adjective",
+        "example": "You should be cautious when investing in stocks.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "deduct",
+        "pronunciation": "/dɪˈdʌkt/",
+        "meaning": "trừ đi, khấu trừ",
+        "partOfSpeech": "verb",
+        "example": "The bank will deduct a transaction fee.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "dividend",
+        "pronunciation": "/ˈdɪvɪdend/",
+        "meaning": "tiền lãi cổ phần",
+        "partOfSpeech": "noun",
+        "example": "The company paid a dividend to its shareholders.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "down payment",
+        "pronunciation": "/daʊn ˈpeɪmənt/",
+        "meaning": "tiền cọc, phần tiền trả trước",
+        "partOfSpeech": "noun",
+        "example": "We made a down payment on our new house.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "mortgage",
+        "pronunciation": "/ˈmɔːɡɪdʒ/",
+        "meaning": "tiền thế chấp",
+        "partOfSpeech": "noun",
+        "example": "They applied for a mortgage to buy their apartment.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "restriction",
+        "pronunciation": "/rɪˈstrɪkʃn/",
+        "meaning": "hạn chế, giới hạn",
+        "partOfSpeech": "noun",
+        "example": "There are some restrictions on cash withdrawals.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "signature",
+        "pronunciation": "/ˈsɪɡnətʃə(r)/",
+        "meaning": "chữ ký",
+        "partOfSpeech": "noun",
+        "example": "Please write your signature on the dotted line.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "take out",
+        "pronunciation": "/teɪk aʊt/",
+        "meaning": "rút (tiền)",
+        "partOfSpeech": "verb",
+        "example": "He took out some cash to buy groceries.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "transaction",
+        "pronunciation": "/trænˈzækʃn/",
+        "meaning": "giao dịch",
+        "partOfSpeech": "noun",
+        "example": "The online transaction was processed successfully.",
+        "difficulty": "medium"
+      }
+    ],
+    "meaning": "Ngân hàng"
+  },
+  {
+    "topic": "Accounting",
+    "words": [
+      {
+        "word": "accounting",
+        "pronunciation": "/əˈkaʊntɪŋ/",
+        "meaning": "kế toán",
+        "partOfSpeech": "noun",
+        "example": "She is studying accounting at university.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "accumulate",
+        "pronunciation": "/əˈkjuːmjəleɪt/",
+        "meaning": "tích lũy",
+        "partOfSpeech": "verb",
+        "example": "Dust accumulated on the bookshelf.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "asset",
+        "pronunciation": "/ˈæset/",
+        "meaning": "tài sản",
+        "partOfSpeech": "noun",
+        "example": "The company has assets worth millions.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "audit",
+        "pronunciation": "/ˈɔːdɪt/",
+        "meaning": "kiểm toán",
+        "partOfSpeech": "noun",
+        "example": "The company's financial records undergo an audit every year.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "budget",
+        "pronunciation": "/ˈbʌdʒɪt/",
+        "meaning": "ngân sách",
+        "partOfSpeech": "noun",
+        "example": "We are working on a tight budget.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "build up",
+        "pronunciation": "/bɪld ʌp/",
+        "meaning": "sự tăng trưởng",
+        "partOfSpeech": "verb",
+        "example": "You need to build up your confidence.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "client",
+        "pronunciation": "/ˈklaɪənt/",
+        "meaning": "khách hàng",
+        "partOfSpeech": "noun",
+        "example": "The lawyer met with three clients today.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "debt",
+        "pronunciation": "/det/",
+        "meaning": "món nợ",
+        "partOfSpeech": "noun",
+        "example": "He cleared all his bank debts.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "outstanding",
+        "pronunciation": "/aʊtˈstændɪŋ/",
+        "meaning": "chưa trả nợ",
+        "partOfSpeech": "adjective",
+        "example": "You still have some outstanding bills to pay.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "profitable",
+        "pronunciation": "/ˈprɒfɪtəbl/",
+        "meaning": "có sinh lợi",
+        "partOfSpeech": "adjective",
+        "example": "The startup became profitable within a year.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "reconcile",
+        "pronunciation": "/ˈrekənsaɪl/",
+        "meaning": "hòa giải, dung hòa",
+        "partOfSpeech": "verb",
+        "example": "We are trying to reconcile our bank statement with our receipts.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "turnover",
+        "pronunciation": "/ˈtɜːnəʊvə(r)/",
+        "meaning": "doanh thu",
+        "partOfSpeech": "noun",
+        "example": "The company has an annual turnover of $2 million.",
+        "difficulty": "medium"
+      }
+    ],
+    "meaning": "Kế toán"
+  },
+  {
+    "topic": "Investments",
+    "words": [
+      {
+        "word": "aggressive",
+        "pronunciation": "/əˈɡresɪv/",
+        "meaning": "có sức cạnh tranh",
+        "partOfSpeech": "adjective",
+        "example": "The firm launched an aggressive advertising campaign.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "attitude",
+        "pronunciation": "/ˈætɪtjuːd/",
+        "meaning": "thái độ",
+        "partOfSpeech": "noun",
+        "example": "He has a very positive attitude towards work.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "commitment",
+        "pronunciation": "/kəˈmɪtmənt/",
+        "meaning": "lời cam kết",
+        "partOfSpeech": "noun",
+        "example": "We made a commitment to help the local community.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "conservative",
+        "pronunciation": "/kənˈsɜːvətɪv/",
+        "meaning": "thận trọng, cẩn thận",
+        "partOfSpeech": "adjective",
+        "example": "His financial strategy is very conservative.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "fund",
+        "pronunciation": "/fʌnd/",
+        "meaning": "quỹ",
+        "partOfSpeech": "noun",
+        "example": "We established a disaster relief fund.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "invest",
+        "pronunciation": "/ɪnˈvest/",
+        "meaning": "đầu tư",
+        "partOfSpeech": "verb",
+        "example": "They want to invest in renewable energy.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "long-term",
+        "pronunciation": "/ˌlɒŋ ˈtɜːm/",
+        "meaning": "dài hạn",
+        "partOfSpeech": "adjective",
+        "example": "This is a long-term investment strategy.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "portfolio",
+        "pronunciation": "/pɔːtˈfəʊliəʊ/",
+        "meaning": "danh mục vốn đầu tư",
+        "partOfSpeech": "noun",
+        "example": "He has a diverse investment portfolio.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "pull out",
+        "pronunciation": "/pʊl aʊt/",
+        "meaning": "sự rút lui",
+        "partOfSpeech": "verb",
+        "example": "The company decided to pull out of the joint venture.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "resource",
+        "pronunciation": "/rɪˈsɔːs/",
+        "meaning": "tài sản (công ty)",
+        "partOfSpeech": "noun",
+        "example": "We need to optimize our resource usage.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "return",
+        "pronunciation": "/rɪˈtɜːn/",
+        "meaning": "tiền lời, lợi nhuận",
+        "partOfSpeech": "noun",
+        "example": "The investment yields a high return.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "wise",
+        "pronunciation": "/waɪz/",
+        "meaning": "khôn ngoan",
+        "partOfSpeech": "adjective",
+        "example": "It was a wise decision to buy the stock.",
+        "difficulty": "easy"
+      }
+    ],
+    "meaning": "Đầu tư"
+  },
+  {
+    "topic": "Taxes",
+    "words": [
+      {
+        "word": "calculate",
+        "pronunciation": "/ˈkælkjuleɪt/",
+        "meaning": "tính toán",
+        "partOfSpeech": "verb",
+        "example": "We need to calculate the total taxes owed.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "deadline",
+        "pronunciation": "/ˈdedlaɪn/",
+        "meaning": "hạn chót",
+        "partOfSpeech": "noun",
+        "example": "The deadline for filing taxes is next Monday.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "file",
+        "pronunciation": "/faɪl/",
+        "meaning": "hồ sơ, tài liệu",
+        "partOfSpeech": "verb",
+        "example": "Remember to file your tax return on time.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "fill out",
+        "pronunciation": "/fɪl aʊt/",
+        "meaning": "hoàn thành, đầy đủ, toàn bộ",
+        "partOfSpeech": "verb",
+        "example": "Please fill out this form carefully.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "give up",
+        "pronunciation": "/ɡɪv ʌp/",
+        "meaning": "từ bỏ",
+        "partOfSpeech": "verb",
+        "example": "Do not give up hope.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "joint",
+        "pronunciation": "/dʒɔɪnt/",
+        "meaning": "nối, gia nhập, chung",
+        "partOfSpeech": "adjective",
+        "example": "They opened a joint account.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "owe",
+        "pronunciation": "/əʊ/",
+        "meaning": "nợ",
+        "partOfSpeech": "verb",
+        "example": "He still owes me $10.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "penalty",
+        "pronunciation": "/ˈpenəlti/",
+        "meaning": "trừng phạt, phạt",
+        "partOfSpeech": "noun",
+        "example": "There is a penalty for late payment.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "prepare",
+        "pronunciation": "/prɪˈpeə(r)/",
+        "meaning": "chuẩn bị",
+        "partOfSpeech": "verb",
+        "example": "She is preparing for her exams.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "refund",
+        "pronunciation": "/ˈriːfʌnd/",
+        "meaning": "sự trả lại, trả lại",
+        "partOfSpeech": "noun",
+        "example": "You can request a refund if you are not satisfied.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "spouse",
+        "pronunciation": "/spaʊs/",
+        "meaning": "chồng/vợ",
+        "partOfSpeech": "noun",
+        "example": "His spouse works as a doctor.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "withhold",
+        "pronunciation": "/wɪðˈhəʊld/",
+        "meaning": "ngăn cản, giữ lại",
+        "partOfSpeech": "verb",
+        "example": "The bank will withhold tax from your interest.",
+        "difficulty": "hard"
+      }
+    ],
+    "meaning": "Thuế"
+  },
+  {
+    "topic": "Financial Statements",
+    "words": [
+      {
+        "word": "desired",
+        "pronunciation": "/dɪˈzaɪəd/",
+        "meaning": "khao khát, mong muốn",
+        "partOfSpeech": "adjective",
+        "example": "He achieved the desired result.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "detail",
+        "pronunciation": "/ˈdiːteɪl/",
+        "meaning": "chi tiết",
+        "partOfSpeech": "noun",
+        "example": "The report lists every detail of the transaction.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "forecast",
+        "pronunciation": "/ˈfɔːkɑːst/",
+        "meaning": "dự báo",
+        "partOfSpeech": "noun",
+        "example": "Check the weather forecast before you go.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "level",
+        "pronunciation": "/ˈlevl/",
+        "meaning": "mức độ",
+        "partOfSpeech": "noun",
+        "example": "The river water has reached a high level.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "overall",
+        "pronunciation": "/ˌəʊvərˈɔːl/",
+        "meaning": "toàn bộ, toàn thể",
+        "partOfSpeech": "adjective",
+        "example": "The overall cost was lower than expected.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "perspective",
+        "pronunciation": "/pəˈspektɪv/",
+        "meaning": "quan điểm",
+        "partOfSpeech": "noun",
+        "example": "Try to look at the situation from his perspective.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "projected",
+        "pronunciation": "/prəˈdʒektɪd/",
+        "meaning": "được dự kiến",
+        "partOfSpeech": "adjective",
+        "example": "The projected earnings are very positive.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "realistic",
+        "pronunciation": "/ˌriːəˈlɪstɪk/",
+        "meaning": "thực tế",
+        "partOfSpeech": "adjective",
+        "example": "We need to set realistic goals.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "target",
+        "pronunciation": "/ˈtɑːɡɪt/",
+        "meaning": "mục tiêu",
+        "partOfSpeech": "noun",
+        "example": "We reached our sales target early.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "translation",
+        "pronunciation": "/trænsˈleɪʃn/",
+        "meaning": "bản dịch",
+        "partOfSpeech": "noun",
+        "example": "Please provide a translation of this letter.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "typical",
+        "pronunciation": "/ˈtɪpɪkl/",
+        "meaning": "điển hình",
+        "partOfSpeech": "adjective",
+        "example": "This is a typical example of gothic architecture.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "yield",
+        "pronunciation": "/jiːld/",
+        "meaning": "sản lượng",
+        "partOfSpeech": "noun",
+        "example": "The investment yields a high crop yield.",
+        "difficulty": "hard"
+      }
+    ],
+    "meaning": "Báo cáo tài chính"
+  },
+  {
+    "topic": "Property & Department",
+    "words": [
+      {
+        "word": "adjacent",
+        "pronunciation": "/əˈdʒeɪsnt/",
+        "meaning": "kề bên, sát bên",
+        "partOfSpeech": "adjective",
+        "example": "The garage is adjacent to the house.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "collaboration",
+        "pronunciation": "/kəˌlæbəˈreɪʃn/",
+        "meaning": "sự cộng tác",
+        "partOfSpeech": "noun",
+        "example": "The book was written in collaboration with a colleague.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "concentrate",
+        "pronunciation": "/ˈkɒnsntreɪt/",
+        "meaning": "tập trung",
+        "partOfSpeech": "verb",
+        "example": "I need to concentrate on my work.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "conducive",
+        "pronunciation": "/kənˈdjuːsɪv/",
+        "meaning": "có lợi, góp phần",
+        "partOfSpeech": "adjective",
+        "example": "A quiet environment is conducive to studying.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "disrupt",
+        "pronunciation": "/dɪsˈrʌpt/",
+        "meaning": "gây hỗn loạn, gián đoạn",
+        "partOfSpeech": "verb",
+        "example": "The strike disrupted train services.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "hamper",
+        "pronunciation": "/ˈhæmpə(r)/",
+        "meaning": "cản trở, gây khó khăn",
+        "partOfSpeech": "verb",
+        "example": "Heavy rain hampered the rescue efforts.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "inconsiderately",
+        "pronunciation": "/ˌɪnkənˈsɪdərətli/",
+        "meaning": "thiếu suy nghĩ, vô tâm",
+        "partOfSpeech": "adverb",
+        "example": "He inconsiderately parked his car across our driveway.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "lobby",
+        "pronunciation": "/ˈlɒbi/",
+        "meaning": "sảnh chờ",
+        "partOfSpeech": "noun",
+        "example": "Let's meet in the hotel lobby.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "move in",
+        "pronunciation": "/muːv ɪn/",
+        "meaning": "dọn vào ở",
+        "partOfSpeech": "verb",
+        "example": "We plan to move in next weekend.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "open to",
+        "pronunciation": "/ˈəʊpən tuː/",
+        "meaning": "dễ tiếp nhận, cởi mở",
+        "partOfSpeech": "adjective",
+        "example": "He is always open to new ideas.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "opt",
+        "pronunciation": "/ɒpt/",
+        "meaning": "chọn lựa, chọn",
+        "partOfSpeech": "verb",
+        "example": "Consumers can opt to receive notifications.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "scrutinize",
+        "pronunciation": "/ˈskruːtənaɪz/",
+        "meaning": "xem xét kĩ lưỡng",
+        "partOfSpeech": "verb",
+        "example": "The manager scrutinized the financial statements.",
+        "difficulty": "hard"
+      }
+    ],
+    "meaning": "Bất động sản"
+  },
+  {
+    "topic": "Board Meeting & Committees",
+    "words": [
+      {
+        "word": "adhere to",
+        "pronunciation": "/ədˈhɪə(r) tuː/",
+        "meaning": "tuân thủ",
+        "partOfSpeech": "verb",
+        "example": "All staff must adhere to the rules.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "agenda",
+        "pronunciation": "/əˈdʒendə/",
+        "meaning": "chương trình họp",
+        "partOfSpeech": "noun",
+        "example": "The next item on the agenda is the budget.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "bring up",
+        "pronunciation": "/brɪŋ ʌp/",
+        "meaning": "đưa ra (vấn đề)",
+        "partOfSpeech": "verb",
+        "example": "She brought up the issue during the meeting.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "conclude",
+        "pronunciation": "/kənˈkluːd/",
+        "meaning": "kết thúc, chấm dứt",
+        "partOfSpeech": "verb",
+        "example": "The conference will conclude with a dinner.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "go ahead",
+        "pronunciation": "/ɡəʊ əˈhed/",
+        "meaning": "tiến hành, cho phép",
+        "partOfSpeech": "verb",
+        "example": "They decided to go ahead with the project.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "goal",
+        "pronunciation": "/ɡəʊl/",
+        "meaning": "mục tiêu",
+        "partOfSpeech": "noun",
+        "example": "Our goal is to improve customer satisfaction.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "lengthy",
+        "pronunciation": "/ˈleŋθi/",
+        "meaning": "dài dòng",
+        "partOfSpeech": "adjective",
+        "example": "The process was very lengthy and complex.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "matter",
+        "pronunciation": "/ˈmætə(r)/",
+        "meaning": "vấn đề",
+        "partOfSpeech": "noun",
+        "example": "We discussed several financial matters.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "periodically",
+        "pronunciation": "/ˌpɪəriˈɒdɪkli/",
+        "meaning": "một cách định kỳ",
+        "partOfSpeech": "adverb",
+        "example": "The records are checked periodically.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "priority",
+        "pronunciation": "/praɪˈɒrəti/",
+        "meaning": "quyền ưu tiên",
+        "partOfSpeech": "noun",
+        "example": "Safety is our top priority.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "progress",
+        "pronunciation": "/ˈprəʊɡres/",
+        "meaning": "sự tiến bộ",
+        "partOfSpeech": "noun",
+        "example": "We are making good progress with the construction.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "waste",
+        "pronunciation": "/weɪst/",
+        "meaning": "vô giá trị, lãng phí",
+        "partOfSpeech": "noun",
+        "example": "It is a waste of time to argue.",
+        "difficulty": "easy"
+      }
+    ],
+    "meaning": "Họp ban quản trị & Ủy ban"
+  },
+  {
+    "topic": "Quality Control",
+    "words": [
+      {
+        "word": "brand",
+        "pronunciation": "/brænd/",
+        "meaning": "nhãn hiệu",
+        "partOfSpeech": "noun",
+        "example": "This is a popular brand of clothing.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "conform",
+        "pronunciation": "/kənˈfɔːm/",
+        "meaning": "tuân theo, làm theo",
+        "partOfSpeech": "verb",
+        "example": "The product must conform to safety regulations.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "defect",
+        "pronunciation": "/ˈdiːfekt/",
+        "meaning": "khuyết điểm, thiếu sót",
+        "partOfSpeech": "noun",
+        "example": "The screen was replaced due to a defect.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "enhance",
+        "pronunciation": "/ɪnˈhɑːns/",
+        "meaning": "nâng cao",
+        "partOfSpeech": "verb",
+        "example": "The upgrade will enhance the system performance.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "garment",
+        "pronunciation": "/ˈɡɑːmənt/",
+        "meaning": "quần áo",
+        "partOfSpeech": "noun",
+        "example": "These wool garments are hand washed.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "inspect",
+        "pronunciation": "/ɪnˈspekt/",
+        "meaning": "xem xét kĩ, kiểm tra",
+        "partOfSpeech": "verb",
+        "example": "Health inspectors inspect restaurants regularly.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "perceive",
+        "pronunciation": "/pəˈsiːv/",
+        "meaning": "nhận thấy, nhận biết",
+        "partOfSpeech": "verb",
+        "example": "I perceived a change in her behavior.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "repel",
+        "pronunciation": "/rɪˈpel/",
+        "meaning": "đẩy đi xa, chống lại",
+        "partOfSpeech": "verb",
+        "example": "This fabric repels water.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "take back",
+        "pronunciation": "/teɪk bæk/",
+        "meaning": "rút lui, lấy lại",
+        "partOfSpeech": "verb",
+        "example": "I take back what I said about him.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "throw out",
+        "pronunciation": "/θrəʊ aʊt/",
+        "meaning": "vứt bỏ, bỏ đi",
+        "partOfSpeech": "verb",
+        "example": "Throw out the old newspapers.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "uniform",
+        "pronunciation": "/ˈjuːnɪfɔːm/",
+        "meaning": "cùng một kiểu, đồng đều",
+        "partOfSpeech": "adjective",
+        "example": "The blocks are of uniform size.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "wrinkle",
+        "pronunciation": "/ˈrɪŋkl/",
+        "meaning": "vết nhăn, nhàu",
+        "partOfSpeech": "noun",
+        "example": "This shirt does not wrinkle easily.",
+        "difficulty": "medium"
+      }
+    ],
+    "meaning": "Kiểm soát chất lượng"
+  },
+  {
+    "topic": "Product Development",
+    "words": [
+      {
+        "word": "anxious",
+        "pronunciation": "/ˈæŋkʃəs/",
+        "meaning": "lo lắng, băn khoăn",
+        "partOfSpeech": "adjective",
+        "example": "She was anxious about the test results.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "ascertain",
+        "pronunciation": "/ˌæsəˈteɪn/",
+        "meaning": "xác định",
+        "partOfSpeech": "verb",
+        "example": "It is difficult to ascertain the truth.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "assume",
+        "pronunciation": "/əˈsjuːm/",
+        "meaning": "cho rằng, giả sử (là đúng)",
+        "partOfSpeech": "verb",
+        "example": "I assumed you were coming to the party.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "decade",
+        "pronunciation": "/ˈdekeɪd/",
+        "meaning": "thập kỷ",
+        "partOfSpeech": "noun",
+        "example": "The technology has changed a lot in the last decade.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "examine",
+        "pronunciation": "/ɪɡˈzæmɪn/",
+        "meaning": "xem xét chi tiết",
+        "partOfSpeech": "verb",
+        "example": "The doctor examined the patient carefully.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "experiment",
+        "pronunciation": "/ɪkˈsperɪmənt/",
+        "meaning": "làm thử nghiệm",
+        "partOfSpeech": "verb",
+        "example": "Scientists are experimenting with a new vaccine.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "logical",
+        "pronunciation": "/ˈlɒdʒɪkl/",
+        "meaning": "hợp logic, hợp lý",
+        "partOfSpeech": "adjective",
+        "example": "His argument was logical and clear.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "research",
+        "pronunciation": "/rɪˈsɜːtʃ/",
+        "meaning": "nghiên cứu",
+        "partOfSpeech": "noun",
+        "example": "She is doing research into solar energy.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "responsibility",
+        "pronunciation": "/rɪˌspɒnsəˈbɪləti/",
+        "meaning": "trách nhiệm",
+        "partOfSpeech": "noun",
+        "example": "It is my responsibility to manage the project.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "solve",
+        "pronunciation": "/sɒlv/",
+        "meaning": "giải quyết",
+        "partOfSpeech": "verb",
+        "example": "We must solve the budget crisis.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "supervisor",
+        "pronunciation": "/ˈsuːpəvaɪzə(r)/",
+        "meaning": "người giám sát",
+        "partOfSpeech": "noun",
+        "example": "Please report the issue to your supervisor.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "systematic",
+        "pronunciation": "/ˌsɪstəˈmætɪk/",
+        "meaning": "có hệ thống",
+        "partOfSpeech": "adjective",
+        "example": "He has a systematic approach to teaching.",
+        "difficulty": "hard"
+      }
+    ],
+    "meaning": "Phát triển sản phẩm"
+  },
+  {
+    "topic": "Renting & Leasing",
+    "words": [
+      {
+        "word": "apprehensive",
+        "pronunciation": "/ˌæprɪˈhensɪv/",
+        "meaning": "sợ hãi, e sợ",
+        "partOfSpeech": "adjective",
+        "example": "She was apprehensive about her first flight.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "circumstance",
+        "pronunciation": "/ˈsɜːkəmstəns/",
+        "meaning": "hoàn cảnh, tình huống",
+        "partOfSpeech": "noun",
+        "example": "Due to circumstances beyond our control, the flight is delayed.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "condition",
+        "pronunciation": "/kənˈdɪʃn/",
+        "meaning": "điều kiện",
+        "partOfSpeech": "noun",
+        "example": "The house is in excellent condition.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "due to",
+        "pronunciation": "/djuː tuː/",
+        "meaning": "bởi vì",
+        "partOfSpeech": "preposition",
+        "example": "The match was canceled due to rain.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "fluctuate",
+        "pronunciation": "/ˈflʌktʃueɪt/",
+        "meaning": "dao động, thay đổi bất thường",
+        "partOfSpeech": "verb",
+        "example": "The prices fluctuate throughout the year.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "get out of",
+        "pronunciation": "/ɡet aʊt ɒv/",
+        "meaning": "rời khỏi",
+        "partOfSpeech": "verb",
+        "example": "He got out of the car.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "indicator",
+        "pronunciation": "/ˈɪndɪkeɪtə(r)/",
+        "meaning": "người chỉ thị, dấu hiệu",
+        "partOfSpeech": "noun",
+        "example": "High temperature is an indicator of infection.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "lease",
+        "pronunciation": "/liːs/",
+        "meaning": "hợp đồng cho thuê",
+        "partOfSpeech": "noun",
+        "example": "They signed a three-year lease for the office.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "lock into",
+        "pronunciation": "/lɒk ˈɪntuː/",
+        "meaning": "cam kết không thay đổi",
+        "partOfSpeech": "verb",
+        "example": "The agreement locks us into a fixed price.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "occupancy",
+        "pronunciation": "/ˈɒkjəpənsi/",
+        "meaning": "sự cư ngụ, cư trú",
+        "partOfSpeech": "noun",
+        "example": "The hotel has a high occupancy rate in summer.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "option",
+        "pronunciation": "/ˈɒpʃn/",
+        "meaning": "sự lựa chọn",
+        "partOfSpeech": "noun",
+        "example": "We have several options available.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "subject to",
+        "pronunciation": "/səbˈdʒekt tuː/",
+        "meaning": "tùy thuộc vào",
+        "partOfSpeech": "adjective",
+        "example": "The plan is subject to approval.",
+        "difficulty": "medium"
+      }
+    ],
+    "meaning": "Thuê & Cho thuê"
+  },
+  {
+    "topic": "Selecting a Restaurant",
+    "words": [
+      {
+        "word": "appeal",
+        "pronunciation": "/əˈpiːl/",
+        "meaning": "hấp dẫn, lôi cuốn",
+        "partOfSpeech": "verb",
+        "example": "The idea of working from home appeals to me.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "arrive",
+        "pronunciation": "/əˈraɪv/",
+        "meaning": "tới (một nơi)",
+        "partOfSpeech": "verb",
+        "example": "The train arrived at the station on time.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "compromise",
+        "pronunciation": "/ˈkɒmprəmaɪz/",
+        "meaning": "thỏa hiệp",
+        "partOfSpeech": "noun",
+        "example": "We reached a compromise after a long debate.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "daring",
+        "pronunciation": "/ˈdeərɪŋ/",
+        "meaning": "táo bạo, liều lĩnh",
+        "partOfSpeech": "adjective",
+        "example": "It was a daring escape.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "familiar",
+        "pronunciation": "/fəˈmɪliə(r)/",
+        "meaning": "quen thuộc",
+        "partOfSpeech": "adjective",
+        "example": "His face looks very familiar.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "guide",
+        "pronunciation": "/ɡaɪd/",
+        "meaning": "người chỉ dẫn",
+        "partOfSpeech": "noun",
+        "example": "Our guide showed us around the museum.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "majority",
+        "pronunciation": "/məˈdʒɒrəti/",
+        "meaning": "phần lớn, đa số",
+        "partOfSpeech": "noun",
+        "example": "The majority of people supported the proposal.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "mix",
+        "pronunciation": "/mɪks/",
+        "meaning": "pha, trộn lẫn",
+        "partOfSpeech": "verb",
+        "example": "Mix the ingredients together in a bowl.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "rely",
+        "pronunciation": "/rɪˈlaɪ/",
+        "meaning": "tin vào, dựa vào",
+        "partOfSpeech": "verb",
+        "example": "You can rely on his help.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "secure",
+        "pronunciation": "/sɪˈkjʊə(r)/",
+        "meaning": "tìm được, đạt được",
+        "partOfSpeech": "verb",
+        "example": "He secured a seat on the plane.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "subjective",
+        "pronunciation": "/səbˈdʒektɪv/",
+        "meaning": "chủ quan",
+        "partOfSpeech": "adjective",
+        "example": "Taste is completely subjective.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "suggest",
+        "pronunciation": "/səˈdʒest/",
+        "meaning": "đề nghị",
+        "partOfSpeech": "verb",
+        "example": "I suggest we go for a walk.",
+        "difficulty": "easy"
+      }
+    ],
+    "meaning": "Chọn nhà hàng"
+  },
+  {
+    "topic": "Eating Out",
+    "words": [
+      {
+        "word": "basic",
+        "pronunciation": "/ˈbeɪsɪk/",
+        "meaning": "cơ bản",
+        "partOfSpeech": "adjective",
+        "example": "This is a basic rule of safety.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "complete",
+        "pronunciation": "/kəmˈpliːt/",
+        "meaning": "đầy đủ, trọn vẹn",
+        "partOfSpeech": "adjective",
+        "example": "Please provide a complete list of names.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "excite",
+        "pronunciation": "/ɪkˈsaɪt/",
+        "meaning": "gây hứng thú",
+        "partOfSpeech": "verb",
+        "example": "The news excited the children.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "flavor",
+        "pronunciation": "/ˈfleɪvə(r)/",
+        "meaning": "vị ngon, mùi vị",
+        "partOfSpeech": "noun",
+        "example": "This ice cream has a delicious vanilla flavor.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "forget",
+        "pronunciation": "/fəˈɡet/",
+        "meaning": "quên",
+        "partOfSpeech": "verb",
+        "example": "Don't forget to lock the back door.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "ingredient",
+        "pronunciation": "/ɪnˈɡriːdiənt/",
+        "meaning": "thành phần",
+        "partOfSpeech": "noun",
+        "example": "Mix all the ingredients in a large bowl.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "judge",
+        "pronunciation": "/dʒʌdʒ/",
+        "meaning": "đánh giá, phán xét",
+        "partOfSpeech": "verb",
+        "example": "Do not judge a book by its cover.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "mix-up",
+        "pronunciation": "/ˈmɪks ʌp/",
+        "meaning": "lộn xộn",
+        "partOfSpeech": "noun",
+        "example": "There was a mix-up with our reservation.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "patron",
+        "pronunciation": "/ˈpeɪtrən/",
+        "meaning": "khách hàng quen",
+        "partOfSpeech": "noun",
+        "example": "The restaurant has many loyal patrons.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "predict",
+        "pronunciation": "/prɪˈdɪkt/",
+        "meaning": "báo trước, nói trước",
+        "partOfSpeech": "verb",
+        "example": "It is difficult to predict the future.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "random",
+        "pronunciation": "/ˈrændəm/",
+        "meaning": "ngẫu nhiên, nhắc nhở",
+        "partOfSpeech": "adjective",
+        "example": "The files were selected at random.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "remind",
+        "pronunciation": "/rɪˈmaɪnd/",
+        "meaning": "nhắc nhở",
+        "partOfSpeech": "verb",
+        "example": "Please remind me to call her tomorrow.",
+        "difficulty": "easy"
+      }
+    ],
+    "meaning": "Ăn ngoài"
+  },
+  {
+    "topic": "Ordering Lunch",
+    "words": [
+      {
+        "word": "burdensome",
+        "pronunciation": "/ˈbɜːdnsəm/",
+        "meaning": "khó nhọc, phiền toái",
+        "partOfSpeech": "adjective",
+        "example": "The task became burdensome over time.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "common",
+        "pronunciation": "/ˈkɒmən/",
+        "meaning": "phổ biến",
+        "partOfSpeech": "adjective",
+        "example": "This is a common practice in the industry.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "delivery",
+        "pronunciation": "/dɪˈlɪvəri/",
+        "meaning": "phân phát, giao, chuyển",
+        "partOfSpeech": "noun",
+        "example": "We offer free delivery for orders over $50.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "elegant",
+        "pronunciation": "/ˈelɪɡənt/",
+        "meaning": "duyên dáng, thanh lịch",
+        "partOfSpeech": "adjective",
+        "example": "She wore an elegant dress to the party.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "fall to",
+        "pronunciation": "/fɔːl tuː/",
+        "meaning": "thuộc trách nhiệm",
+        "partOfSpeech": "verb",
+        "example": "It fell to me to deliver the bad news.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "impress",
+        "pronunciation": "/ɪmˈpres/",
+        "meaning": "gây ấn tượng",
+        "partOfSpeech": "verb",
+        "example": "The candidate impressed the interview panel.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "individual",
+        "pronunciation": "/ˌɪndɪˈvɪdʒuəl/",
+        "meaning": "cá nhân, độc đáo, riêng biệt",
+        "partOfSpeech": "adjective",
+        "example": "Each individual student receives support.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "list",
+        "pronunciation": "/lɪst/",
+        "meaning": "danh sách",
+        "partOfSpeech": "noun",
+        "example": "Here is the list of items we need.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "multiple",
+        "pronunciation": "/ˈmʌltɪpl/",
+        "meaning": "nhiều, phức tạp",
+        "partOfSpeech": "adjective",
+        "example": "The computer ran multiple tasks at once.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "narrow",
+        "pronunciation": "/ˈnærəʊ/",
+        "meaning": "thu hẹp",
+        "partOfSpeech": "verb",
+        "example": "We need to narrow down the choices.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "pick up",
+        "pronunciation": "/pɪk ʌp/",
+        "meaning": "đón (ai đó)",
+        "partOfSpeech": "verb",
+        "example": "I will pick you up at the airport.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "settle",
+        "pronunciation": "/ˈsetl/",
+        "meaning": "ổn định",
+        "partOfSpeech": "verb",
+        "example": "The dust finally settled.",
+        "difficulty": "easy"
+      }
+    ],
+    "meaning": "Đặt bữa trưa"
+  },
+  {
+    "topic": "Cooking as a Career",
+    "words": [
+      {
+        "word": "accustom to",
+        "pronunciation": "/əˈkʌstəm tuː/",
+        "meaning": "làm quen với",
+        "partOfSpeech": "verb",
+        "example": "You will soon get accustom to the cold weather.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "apprentice",
+        "pronunciation": "/əˈprentɪs/",
+        "meaning": "người học việc, thực tập",
+        "partOfSpeech": "noun",
+        "example": "He is working as an apprentice chef.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "culinary",
+        "pronunciation": "/ˈkʌlɪnəri/",
+        "meaning": "việc nấu nướng, bếp núc",
+        "partOfSpeech": "adjective",
+        "example": "She has excellent culinary skills.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "demanding",
+        "pronunciation": "/dɪˈmɑːndɪŋ/",
+        "meaning": "đòi hỏi khắt khe",
+        "partOfSpeech": "adjective",
+        "example": "Cooking is a demanding profession.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "draw",
+        "pronunciation": "/drɔː/",
+        "meaning": "lôi kéo, thu hút",
+        "partOfSpeech": "verb",
+        "example": "The exhibition drew large crowds.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "incorporate",
+        "pronunciation": "/ɪnˈkɔːpəreɪt/",
+        "meaning": "sáp nhập",
+        "partOfSpeech": "verb",
+        "example": "We should incorporate these suggestions into the plan.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "influx",
+        "pronunciation": "/ˈɪnflʌks/",
+        "meaning": "sự chảy vào",
+        "partOfSpeech": "noun",
+        "example": "There has been an influx of tourists this summer.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "method",
+        "pronunciation": "/ˈmeθəd/",
+        "meaning": "phương pháp",
+        "partOfSpeech": "noun",
+        "example": "The teacher used a new teaching method.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "outlet",
+        "pronunciation": "/ˈaʊtlet/",
+        "meaning": "lối ra, lối thoát",
+        "partOfSpeech": "noun",
+        "example": "Physical activity is a great outlet for stress.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "profession",
+        "pronunciation": "/prəˈfeʃn/",
+        "meaning": "nghề nghiệp",
+        "partOfSpeech": "noun",
+        "example": "He is a doctor by profession.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "relinquish",
+        "pronunciation": "/rɪˈlɪŋkwɪʃ/",
+        "meaning": "từ bỏ, đầu hàng",
+        "partOfSpeech": "verb",
+        "example": "He was forced to relinquish control of the company.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "theme",
+        "pronunciation": "/θiːm/",
+        "meaning": "đề tài, chủ đề",
+        "partOfSpeech": "noun",
+        "example": "The party has a tropical theme.",
+        "difficulty": "easy"
+      }
+    ],
+    "meaning": "Nghề nấu ăn"
+  },
+  {
+    "topic": "Events",
+    "words": [
+      {
+        "word": "assist",
+        "pronunciation": "/əˈsɪst/",
+        "meaning": "giúp đỡ, trợ lý",
+        "partOfSpeech": "verb",
+        "example": "We will assist you with the booking.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "coordinate",
+        "pronunciation": "/kəʊˈɔːdɪneɪt/",
+        "meaning": "sắp xếp, phối hợp",
+        "partOfSpeech": "verb",
+        "example": "We need to coordinate our schedules.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "dimension",
+        "pronunciation": "/daɪˈmenʃn/",
+        "meaning": "kích thước",
+        "partOfSpeech": "noun",
+        "example": "Check the dimensions of the room before buying furniture.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "exact",
+        "pronunciation": "/ɪɡˈzækt/",
+        "meaning": "chính xác",
+        "partOfSpeech": "adjective",
+        "example": "Please tell me the exact time.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "general",
+        "pronunciation": "/ˈdʒenrəl/",
+        "meaning": "tổng thể, chung chung",
+        "partOfSpeech": "adjective",
+        "example": "The report gives a general overview of the situation.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "ideal",
+        "pronunciation": "/aɪˈdiːəl/",
+        "meaning": "lí tưởng",
+        "partOfSpeech": "adjective",
+        "example": "The weather is ideal for a picnic.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "lead time",
+        "pronunciation": "/liːd taɪm/",
+        "meaning": "thời gian chuẩn bị",
+        "partOfSpeech": "noun",
+        "example": "The manufacturing lead time is three weeks.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "plan",
+        "pronunciation": "/plæn/",
+        "meaning": "kế hoạch",
+        "partOfSpeech": "noun",
+        "example": "We need a backup plan in case this fails.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "proximity",
+        "pronunciation": "/prɒkˈsɪməti/",
+        "meaning": "sự gần gũi",
+        "partOfSpeech": "noun",
+        "example": "The house is in close proximity to the school.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "regulation",
+        "pronunciation": "/ˌreɡjuˈleɪʃn/",
+        "meaning": "quy tắc, điều chỉnh",
+        "partOfSpeech": "noun",
+        "example": "Safety regulations must be followed.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "site",
+        "pronunciation": "/saɪt/",
+        "meaning": "chỗ, vị trí",
+        "partOfSpeech": "noun",
+        "example": "The site was chosen for the new hospital.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "stage",
+        "pronunciation": "/steɪdʒ/",
+        "meaning": "trình diễn, sân khấu",
+        "partOfSpeech": "noun",
+        "example": "The play is staged in the local theater.",
+        "difficulty": "easy"
+      }
+    ],
+    "meaning": "Sự kiện"
+  },
+  {
+    "topic": "General Travel",
+    "words": [
+      {
+        "word": "agency",
+        "pronunciation": "/ˈeɪdʒənsi/",
+        "meaning": "đại lý",
+        "partOfSpeech": "noun",
+        "example": "Book your tickets through a travel agency.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "announcement",
+        "pronunciation": "/əˈnaʊnsmənt/",
+        "meaning": "thông báo",
+        "partOfSpeech": "noun",
+        "example": "Listen to the train announcement carefully.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "beverage",
+        "pronunciation": "/ˈbevərɪdʒ/",
+        "meaning": "đồ uống, thức uống",
+        "partOfSpeech": "noun",
+        "example": "The flight attendant served beverages.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "blanket",
+        "pronunciation": "/ˈblæŋkɪt/",
+        "meaning": "mền, chăn",
+        "partOfSpeech": "noun",
+        "example": "Please give me a blanket to stay warm.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "board",
+        "pronunciation": "/bɔːd/",
+        "meaning": "lên tàu",
+        "partOfSpeech": "verb",
+        "example": "Passengers are boarding the plane now.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "claim",
+        "pronunciation": "/kleɪm/",
+        "meaning": "yêu cầu",
+        "partOfSpeech": "verb",
+        "example": "You can claim your baggage at terminal 2.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "delay",
+        "pronunciation": "/dɪˈleɪ/",
+        "meaning": "hoãn",
+        "partOfSpeech": "verb",
+        "example": "The flight was delayed due to heavy fog.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "depart",
+        "pronunciation": "/dɪˈpɑːt/",
+        "meaning": "khởi hành, xuất phát",
+        "partOfSpeech": "verb",
+        "example": "The train is scheduled to depart at 3:00 PM.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "embark",
+        "pronunciation": "/ɪmˈbɑːk/",
+        "meaning": "lên tàu, bắt đầu",
+        "partOfSpeech": "verb",
+        "example": "We embarked on a journey across Asia.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "itinerary",
+        "pronunciation": "/aɪˈtɪnərəri/",
+        "meaning": "hành trình, lịch trình",
+        "partOfSpeech": "noun",
+        "example": "Here is the itinerary for the tour.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "prohibit",
+        "pronunciation": "/prəˈhɪbɪt/",
+        "meaning": "ngăn chặn",
+        "partOfSpeech": "verb",
+        "example": "Smoking is prohibited on the plane.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "valid",
+        "pronunciation": "/ˈvælɪd/",
+        "meaning": "hợp lệ, có hiệu lực",
+        "partOfSpeech": "adjective",
+        "example": "Your passport must be valid for at least six months.",
+        "difficulty": "medium"
+      }
+    ],
+    "meaning": "Du lịch"
+  },
+  {
+    "topic": "Airlines",
+    "words": [
+      {
+        "word": "deal with",
+        "pronunciation": "/diːl wɪð/",
+        "meaning": "đối phó với",
+        "partOfSpeech": "verb",
+        "example": "The staff had to deal with angry passengers.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "destination",
+        "pronunciation": "/ˌdestɪˈneɪʃn/",
+        "meaning": "điểm đến",
+        "partOfSpeech": "noun",
+        "example": "We arrived at our destination after a 10 hour flight.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "distinguish",
+        "pronunciation": "/dɪˈstɪŋɡwɪʃ/",
+        "meaning": "phân biệt",
+        "partOfSpeech": "verb",
+        "example": "It is difficult to distinguish the twins.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "economical",
+        "pronunciation": "/ˌiːkəˈnɒmɪkl/",
+        "meaning": "tiết kiệm",
+        "partOfSpeech": "adjective",
+        "example": "It is more economical to travel by bus.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "equivalent",
+        "pronunciation": "/ɪˈkwɪvələnt/",
+        "meaning": "tương đương, bằng nhau",
+        "partOfSpeech": "adjective",
+        "example": "Twelve inches is equivalent to one foot.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "excursion",
+        "pronunciation": "/ɪkˈskɜːʃn/",
+        "meaning": "cuộc tham quan",
+        "partOfSpeech": "noun",
+        "example": "We went on a weekend excursion to the mountains.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "expensive",
+        "pronunciation": "/ɪkˈspensɪv/",
+        "meaning": "đắt",
+        "partOfSpeech": "adjective",
+        "example": "The hotel was too expensive.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "extend",
+        "pronunciation": "/ɪkˈstend/",
+        "meaning": "kéo dài, dành cho",
+        "partOfSpeech": "verb",
+        "example": "They extended the deadline by a week.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "prospective",
+        "pronunciation": "/prəˈspektɪv/",
+        "meaning": "tương lai, triển vọng",
+        "partOfSpeech": "adjective",
+        "example": "We met with prospective clients today.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "situation",
+        "pronunciation": "/ˌsɪtʃuˈeɪʃn/",
+        "meaning": "tình huống",
+        "partOfSpeech": "noun",
+        "example": "The financial situation remains critical.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "substantial",
+        "pronunciation": "/səbˈstænʃl/",
+        "meaning": "lớn, quan trọng",
+        "partOfSpeech": "adjective",
+        "example": "The project received substantial funding.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "system",
+        "pronunciation": "/ˈsɪstəm/",
+        "meaning": "hệ thống",
+        "partOfSpeech": "noun",
+        "example": "The office network system is fast.",
+        "difficulty": "easy"
+      }
+    ],
+    "meaning": "Hãng hàng không"
+  },
+  {
+    "topic": "Trains",
+    "words": [
+      {
+        "word": "comprehensive",
+        "pronunciation": "/ˌkɒmprɪˈhensɪv/",
+        "meaning": "toàn diện",
+        "partOfSpeech": "adjective",
+        "example": "The training course is comprehensive.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "deluxe",
+        "pronunciation": "/dɪˈlʌks/",
+        "meaning": "xa xỉ, xa hoa",
+        "partOfSpeech": "adjective",
+        "example": "They stayed in a deluxe suite at the hotel.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "directory",
+        "pronunciation": "/dəˈrektəri/",
+        "meaning": "danh bạ",
+        "partOfSpeech": "noun",
+        "example": "Check the telephone directory for their number.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "duration",
+        "pronunciation": "/djuˈreɪʃn/",
+        "meaning": "khoảng thời gian, thời lượng",
+        "partOfSpeech": "noun",
+        "example": "The duration of the movie is two hours.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "entitle",
+        "pronunciation": "/ɪnˈtaɪtl/",
+        "meaning": "cho quyền (làm gì)",
+        "partOfSpeech": "verb",
+        "example": "The ticket entitles you to free entry.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "fare",
+        "pronunciation": "/feə(r)/",
+        "meaning": "tiền xe, tiền vé",
+        "partOfSpeech": "noun",
+        "example": "The train fare has increased again.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "offset",
+        "pronunciation": "/ˈɒfset/",
+        "meaning": "đền bù, bù đắp",
+        "partOfSpeech": "verb",
+        "example": "The gains offset the losses.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "operate",
+        "pronunciation": "/ˈɒpəreɪt/",
+        "meaning": "hoạt động",
+        "partOfSpeech": "verb",
+        "example": "The machine operates smoothly.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "punctual",
+        "pronunciation": "/ˈpʌŋktʃuəl/",
+        "meaning": "đúng giờ, kịp thời",
+        "partOfSpeech": "adjective",
+        "example": "Please be punctual for the meeting.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "relatively",
+        "pronunciation": "/ˈrelətɪvli/",
+        "meaning": "vừa phải, tương đối",
+        "partOfSpeech": "adverb",
+        "example": "The weather was relatively warm today.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "remainder",
+        "pronunciation": "/rɪˈmeɪndə(r)/",
+        "meaning": "phần còn lại, số dư, phần dư",
+        "partOfSpeech": "noun",
+        "example": "He spent the remainder of his life in Paris.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "remote",
+        "pronunciation": "/rɪˈməʊt/",
+        "meaning": "xa xôi, hẻo lánh",
+        "partOfSpeech": "adjective",
+        "example": "They live in a remote mountain village.",
+        "difficulty": "medium"
+      }
+    ],
+    "meaning": "Tàu hỏa"
+  },
+  {
+    "topic": "Hotels",
+    "words": [
+      {
+        "word": "advance",
+        "pronunciation": "/ədˈvɑːns/",
+        "meaning": "tiến bộ",
+        "partOfSpeech": "noun",
+        "example": "Book your tickets in advance to save money.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "chain",
+        "pronunciation": "/tʃeɪn/",
+        "meaning": "chuỗi, dây chuyền",
+        "partOfSpeech": "noun",
+        "example": "The Hilton is a famous hotel chain.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "check in",
+        "pronunciation": "/tʃek ɪn/",
+        "meaning": "đăng ký vào",
+        "partOfSpeech": "verb",
+        "example": "We checked in at the hotel at 2:00 PM.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "confirm",
+        "pronunciation": "/kənˈfɜːm/",
+        "meaning": "xác nhận",
+        "partOfSpeech": "verb",
+        "example": "Please confirm your reservation via email.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "expect",
+        "pronunciation": "/ɪkˈspekt/",
+        "meaning": "kỳ vọng",
+        "partOfSpeech": "verb",
+        "example": "We expect the delivery tomorrow.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "housekeeper",
+        "pronunciation": "/ˈhaʊskiːpə(r)/",
+        "meaning": "quản gia",
+        "partOfSpeech": "noun",
+        "example": "The housekeeper cleans the rooms daily.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "notify",
+        "pronunciation": "/ˈnəʊtɪfaɪ/",
+        "meaning": "thông báo",
+        "partOfSpeech": "verb",
+        "example": "We will notify you when the package arrives.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "preclude",
+        "pronunciation": "/prɪˈkluːd/",
+        "meaning": "cản trở, ngăn chặn",
+        "partOfSpeech": "verb",
+        "example": "His injury precludes him from playing tomorrow.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "quote",
+        "pronunciation": "/kwəʊt/",
+        "meaning": "trích dẫn",
+        "partOfSpeech": "verb",
+        "example": "The mechanic quoted $100 for the repair.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "rate",
+        "pronunciation": "/reɪt/",
+        "meaning": "giá cả",
+        "partOfSpeech": "noun",
+        "example": "What is the room rate per night?",
+        "difficulty": "easy"
+      },
+      {
+        "word": "reserve",
+        "pronunciation": "/rɪˈzɜːv/",
+        "meaning": "đặt chỗ trước",
+        "partOfSpeech": "verb",
+        "example": "I reserved a table at the restaurant.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "service",
+        "pronunciation": "/ˈsɜːvɪs/",
+        "meaning": "dịch vụ",
+        "partOfSpeech": "noun",
+        "example": "The service at the restaurant was excellent.",
+        "difficulty": "easy"
+      }
+    ],
+    "meaning": "Khách sạn"
+  },
+  {
+    "topic": "Car Rentals",
+    "words": [
+      {
+        "word": "busy",
+        "pronunciation": "/ˈbɪzi/",
+        "meaning": "bận",
+        "partOfSpeech": "adjective",
+        "example": "The airport is very busy during holidays.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "coincide",
+        "pronunciation": "/ˌkəʊɪnˈsaɪd/",
+        "meaning": "trùng, xảy ra đồng thời",
+        "partOfSpeech": "verb",
+        "example": "The festival coincides with the national holiday.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "confusion",
+        "pronunciation": "/kənˈfjuːʒn/",
+        "meaning": "sự rối loạn, nhầm lẫn",
+        "partOfSpeech": "noun",
+        "example": "There was some confusion about the schedule.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "contact",
+        "pronunciation": "/ˈkɒntækt/",
+        "meaning": "liên lạc",
+        "partOfSpeech": "verb",
+        "example": "Please contact us if you need help.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "disappoint",
+        "pronunciation": "/ˌdɪsəˈpɔɪnt/",
+        "meaning": "thất vọng",
+        "partOfSpeech": "verb",
+        "example": "The movie disappointed many fans.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "intend",
+        "pronunciation": "/ɪnˈtend/",
+        "meaning": "định, dự định",
+        "partOfSpeech": "verb",
+        "example": "We intend to buy a new car next year.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "license",
+        "pronunciation": "/ˈlaɪsns/",
+        "meaning": "giấy phép",
+        "partOfSpeech": "noun",
+        "example": "Do you have a driver's license?",
+        "difficulty": "easy"
+      },
+      {
+        "word": "nervous",
+        "pronunciation": "/ˈnɜːvəs/",
+        "meaning": "lo lắng",
+        "partOfSpeech": "adjective",
+        "example": "She was nervous before the interview.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "optional",
+        "pronunciation": "/ˈɒpʃənl/",
+        "meaning": "không bắt buộc",
+        "partOfSpeech": "adjective",
+        "example": "The field trip is completely optional.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "tempt",
+        "pronunciation": "/tempt/",
+        "meaning": "cám dỗ, dụ dỗ",
+        "partOfSpeech": "verb",
+        "example": "The cake tempted me to break my diet.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "thrill",
+        "pronunciation": "/θrɪl/",
+        "meaning": "xúc động",
+        "partOfSpeech": "noun",
+        "example": "Winning the race was a real thrill.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "tier",
+        "pronunciation": "/tɪə(r)/",
+        "meaning": "tầng, dãy",
+        "partOfSpeech": "noun",
+        "example": "We booked seats in the upper tier of the stadium.",
+        "difficulty": "hard"
+      }
+    ],
+    "meaning": "Thuê xe ô tô"
+  },
+  {
+    "topic": "Movies",
+    "words": [
+      {
+        "word": "attain",
+        "pronunciation": "/əˈteɪn/",
+        "meaning": "đạt được",
+        "partOfSpeech": "verb",
+        "example": "She attained a high score on the test.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "combine",
+        "pronunciation": "/kəmˈbaɪn/",
+        "meaning": "kết hợp, phối hợp",
+        "partOfSpeech": "verb",
+        "example": "The recipe combines sweet and sour flavors.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "continue",
+        "pronunciation": "/kənˈtɪnjuː/",
+        "meaning": "tiếp tục",
+        "partOfSpeech": "verb",
+        "example": "Please continue with your story.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "description",
+        "pronunciation": "/dɪˈskrɪpʃn/",
+        "meaning": "sự mô tả, miêu tả",
+        "partOfSpeech": "noun",
+        "example": "The brochure gives a detailed description of the hotel.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "disperse",
+        "pronunciation": "/dɪˈspɜːs/",
+        "meaning": "phân tán, giải tán",
+        "partOfSpeech": "verb",
+        "example": "The crowd dispersed after the concert.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "entertainment",
+        "pronunciation": "/ˌentəˈteɪnmənt/",
+        "meaning": "giải trí",
+        "partOfSpeech": "noun",
+        "example": "The hotel offers live entertainment every evening.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "influence",
+        "pronunciation": "/ˈɪnfluəns/",
+        "meaning": "ảnh hưởng, tác động",
+        "partOfSpeech": "verb",
+        "example": "My parents influenced my decision to study law.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "range",
+        "pronunciation": "/reɪndʒ/",
+        "meaning": "phạm vi, trình độ",
+        "partOfSpeech": "noun",
+        "example": "The price range is between $10 and $50.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "release",
+        "pronunciation": "/rɪˈliːs/",
+        "meaning": "phát hành",
+        "partOfSpeech": "verb",
+        "example": "The movie was released in cinemas last week.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "represent",
+        "pronunciation": "/ˌreprɪˈzent/",
+        "meaning": "đóng, diễn (kịch)",
+        "partOfSpeech": "verb",
+        "example": "The lawyer represents the client.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "separate",
+        "pronunciation": "/ˈseprət/",
+        "meaning": "riêng biệt",
+        "partOfSpeech": "adjective",
+        "example": "They have separate rooms.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "successive",
+        "pronunciation": "/səkˈsesɪv/",
+        "meaning": "lần lượt",
+        "partOfSpeech": "adjective",
+        "example": "He won for the third successive year.",
+        "difficulty": "hard"
+      }
+    ],
+    "meaning": "Phim ảnh"
+  },
+  {
+    "topic": "Theater",
+    "words": [
+      {
+        "word": "acting",
+        "pronunciation": "/ˈæktɪŋ/",
+        "meaning": "diễn xuất",
+        "partOfSpeech": "noun",
+        "example": "She won an award for her acting in the play.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "approach",
+        "pronunciation": "/əˈprəʊtʃ/",
+        "meaning": "đến gần, lại gần",
+        "partOfSpeech": "verb",
+        "example": "Winter is approaching quickly.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "audience",
+        "pronunciation": "/ˈɔːdiəns/",
+        "meaning": "khán giả",
+        "partOfSpeech": "noun",
+        "example": "The audience cheered at the end of the show.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "create",
+        "pronunciation": "/kriːˈeɪt/",
+        "meaning": "sáng tạo",
+        "partOfSpeech": "verb",
+        "example": "The artist created a beautiful painting.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "dialogue",
+        "pronunciation": "/ˈdaɪəlɒɡ/",
+        "meaning": "cuộc đối thoại",
+        "partOfSpeech": "noun",
+        "example": "The movie has very natural dialogue.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "element",
+        "pronunciation": "/ˈelɪmənt/",
+        "meaning": "chi tiết",
+        "partOfSpeech": "noun",
+        "example": "Trust is a key element of friendship.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "experience",
+        "pronunciation": "/ɪkˈspɪəriəns/",
+        "meaning": "kinh nghiệm",
+        "partOfSpeech": "noun",
+        "example": "Do you have any experience in sales?",
+        "difficulty": "easy"
+      },
+      {
+        "word": "occur",
+        "pronunciation": "/əˈkɜː(r)/",
+        "meaning": "xảy ra, xuất hiện",
+        "partOfSpeech": "verb",
+        "example": "The accident occurred at 9:00 AM.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "perform",
+        "pronunciation": "/pəˈfɔːm/",
+        "meaning": "biểu diễn, trình diễn",
+        "partOfSpeech": "verb",
+        "example": "The band performed live on TV.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "rehearse",
+        "pronunciation": "/rɪˈhɜːs/",
+        "meaning": "diễn tập",
+        "partOfSpeech": "verb",
+        "example": "We need to rehearse the play before the opening night.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "review",
+        "pronunciation": "/rɪˈvjuː/",
+        "meaning": "sự phê bình, lời phê bình",
+        "partOfSpeech": "noun",
+        "example": "The restaurant received a positive review.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "sold out",
+        "pronunciation": "/səʊld aʊt/",
+        "meaning": "bán hết",
+        "partOfSpeech": "adjective",
+        "example": "All tickets for the concert are sold out.",
+        "difficulty": "easy"
+      }
+    ],
+    "meaning": "Kịch / Nhà hát"
+  },
+  {
+    "topic": "Music",
+    "words": [
+      {
+        "word": "available",
+        "pronunciation": "/əˈveɪləbl/",
+        "meaning": "có sẵn",
+        "partOfSpeech": "adjective",
+        "example": "Is this room available tonight?",
+        "difficulty": "easy"
+      },
+      {
+        "word": "broad",
+        "pronunciation": "/brɔːd/",
+        "meaning": "bao la, mênh mông",
+        "partOfSpeech": "adjective",
+        "example": "He has broad shoulders.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "category",
+        "pronunciation": "/ˈkætəɡəri/",
+        "meaning": "hạng, loại",
+        "partOfSpeech": "noun",
+        "example": "The books are sorted by category.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "disparate",
+        "pronunciation": "/ˈdɪspərət/",
+        "meaning": "khác loại",
+        "partOfSpeech": "adjective",
+        "example": "The group consists of people with disparate backgrounds.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "divide",
+        "pronunciation": "/daɪˈveɪd/",
+        "meaning": "chia, phân ra",
+        "partOfSpeech": "verb",
+        "example": "Divide the cake into six slices.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "favorite",
+        "pronunciation": "/ˈfeɪvərɪt/",
+        "meaning": "yêu thích",
+        "partOfSpeech": "adjective",
+        "example": "Vanilla is my favorite ice cream flavor.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "instinct",
+        "pronunciation": "/ˈɪnstɪŋkt/",
+        "meaning": "bản năng",
+        "partOfSpeech": "noun",
+        "example": "Birds build nests by instinct.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "preference",
+        "pronunciation": "/ˈprefrəns/",
+        "meaning": "sự yêu thích",
+        "partOfSpeech": "noun",
+        "example": "Do you have a preference for red or white wine?",
+        "difficulty": "medium"
+      },
+      {
+        "word": "reason",
+        "pronunciation": "/ˈriːzn/",
+        "meaning": "lí do",
+        "partOfSpeech": "noun",
+        "example": "What is the reason for your delay?",
+        "difficulty": "easy"
+      },
+      {
+        "word": "relaxation",
+        "pronunciation": "/ˌriːlækˈseɪʃn/",
+        "meaning": "sự nghỉ ngơi",
+        "partOfSpeech": "noun",
+        "example": "Listening to music is good for relaxation.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "taste",
+        "pronunciation": "/teɪst/",
+        "meaning": "khiếu thẩm mỹ, sự tinh tế",
+        "partOfSpeech": "noun",
+        "example": "She has very good taste in music.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "urge",
+        "pronunciation": "/ɜːdʒ/",
+        "meaning": "thúc giục",
+        "partOfSpeech": "verb",
+        "example": "The doctor urged him to lose weight.",
+        "difficulty": "medium"
+      }
+    ],
+    "meaning": "Âm nhạc"
+  },
+  {
+    "topic": "Museums",
+    "words": [
+      {
+        "word": "acquire",
+        "pronunciation": "/əˈkwaɪə(r)/",
+        "meaning": "đạt được",
+        "partOfSpeech": "verb",
+        "example": "The museum acquired a new painting.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "admire",
+        "pronunciation": "/ədˈmaɪə(r)/",
+        "meaning": "ngưỡng mộ",
+        "partOfSpeech": "verb",
+        "example": "I admire her courage.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "artistic",
+        "pronunciation": "/ɑːˈtɪstɪk/",
+        "meaning": "thuộc nghệ thuật",
+        "partOfSpeech": "adjective",
+        "example": "She has strong artistic talents.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "collection",
+        "pronunciation": "/kəˈlekʃn/",
+        "meaning": "thu thập",
+        "partOfSpeech": "noun",
+        "example": "He has a large collection of stamps.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "criticism",
+        "pronunciation": "/ˈkrɪtɪsɪzəm/",
+        "meaning": "lời phê bình, chỉ trích",
+        "partOfSpeech": "noun",
+        "example": "The project received severe criticism.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "express",
+        "pronunciation": "/ɪkˈspres/",
+        "meaning": "bày tỏ",
+        "partOfSpeech": "verb",
+        "example": "He expressed his gratitude for the help.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "fashion",
+        "pronunciation": "/ˈfæʃn/",
+        "meaning": "thời trang",
+        "partOfSpeech": "noun",
+        "example": "She works in the fashion industry.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "leisure",
+        "pronunciation": "/ˈleʒə(r)/",
+        "meaning": "thời gian rảnh",
+        "partOfSpeech": "noun",
+        "example": "He spends his leisure time gardening.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "respond",
+        "pronunciation": "/rɪˈspɒnd/",
+        "meaning": "đáp lại, phản ứng lại",
+        "partOfSpeech": "verb",
+        "example": "Please respond to this email.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "schedule",
+        "pronunciation": "/ˈʃedjuːl/",
+        "meaning": "lịch trình",
+        "partOfSpeech": "noun",
+        "example": "The train schedule is subject to change.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "significant",
+        "pronunciation": "/sɪɡˈnɪfɪkənt/",
+        "meaning": "có ý nghĩa, quan trọng",
+        "partOfSpeech": "adjective",
+        "example": "There has been a significant increase in sales.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "specialize",
+        "pronunciation": "/ˈspeʃəlaɪz/",
+        "meaning": "chuyên môn hóa",
+        "partOfSpeech": "verb",
+        "example": "The firm specializes in corporate law.",
+        "difficulty": "hard"
+      }
+    ],
+    "meaning": "Bảo tàng"
+  },
+  {
+    "topic": "Media",
+    "words": [
+      {
+        "word": "assignment",
+        "pronunciation": "/əˈsaɪnmənt/",
+        "meaning": "nhiệm vụ, công việc",
+        "partOfSpeech": "noun",
+        "example": "The teacher gave us a reading assignment.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "choose",
+        "pronunciation": "/tʃuːz/",
+        "meaning": "chọn lựa",
+        "partOfSpeech": "verb",
+        "example": "Choose the correct option.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "constant",
+        "pronunciation": "/ˈkɒnstənt/",
+        "meaning": "hằng số",
+        "partOfSpeech": "adjective",
+        "example": "The pressure remained constant.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "constitute",
+        "pronunciation": "/ˈkɒnstɪtjuːt/",
+        "meaning": "tạo thành, gây nên",
+        "partOfSpeech": "verb",
+        "example": "These files constitute evidence.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "decisive",
+        "pronunciation": "/dɪˈsaɪsɪv/",
+        "meaning": "quyết đoán",
+        "partOfSpeech": "adjective",
+        "example": "She is a decisive leader.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "disseminate",
+        "pronunciation": "/dɪˈsemɪneɪt/",
+        "meaning": "truyền bá, phổ biến",
+        "partOfSpeech": "verb",
+        "example": "The network disseminates information rapidly.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "impact",
+        "pronunciation": "/ˈɪmpækt/",
+        "meaning": "tác động, ảnh hưởng",
+        "partOfSpeech": "noun",
+        "example": "The tax has a severe impact on the economy.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "in depth",
+        "pronunciation": "/ɪn depθ/",
+        "meaning": "cẩn thận, tỉ mỉ",
+        "partOfSpeech": "adjective",
+        "example": "We conducted an in depth study of the market.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "investigative",
+        "pronunciation": "/ɪnˈvestɪɡətɪv/",
+        "meaning": "điều tra",
+        "partOfSpeech": "adjective",
+        "example": "He is an investigative journalist.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "link",
+        "pronunciation": "/lɪŋk/",
+        "meaning": "liên kết",
+        "partOfSpeech": "noun",
+        "example": "Click the link to visit our website.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "subscribe",
+        "pronunciation": "/səbˈskraɪb/",
+        "meaning": "đặt mua",
+        "partOfSpeech": "verb",
+        "example": "Subscribe to our channel for updates.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "thorough",
+        "pronunciation": "/ˈθʌrə/",
+        "meaning": "kỹ lưỡng, thấu đáo",
+        "partOfSpeech": "adjective",
+        "example": "The police carried out a thorough investigation.",
+        "difficulty": "medium"
+      }
+    ],
+    "meaning": "Truyền thông & Báo chí"
+  },
+  {
+    "topic": "Doctor's Office",
+    "words": [
+      {
+        "word": "annual",
+        "pronunciation": "/ˈænjuəl/",
+        "meaning": "hằng năm",
+        "partOfSpeech": "adjective",
+        "example": "We attend the annual general meeting.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "appointment",
+        "pronunciation": "/əˈpɔɪntmənt/",
+        "meaning": "sự hẹn gặp, cuộc hẹn",
+        "partOfSpeech": "noun",
+        "example": "I have a dentist appointment at 10:00 AM.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "assess",
+        "pronunciation": "/əˈses/",
+        "meaning": "đánh giá",
+        "partOfSpeech": "verb",
+        "example": "We need to assess the damages.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "diagnose",
+        "pronunciation": "/ˌdaɪəɡˈnəʊz/",
+        "meaning": "chẩn đoán (bệnh)",
+        "partOfSpeech": "verb",
+        "example": "The doctor diagnosed him with a lung infection.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "effective",
+        "pronunciation": "/ɪˈfektɪv/",
+        "meaning": "có hiệu quả",
+        "partOfSpeech": "adjective",
+        "example": "The new drug is highly effective.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "instrument",
+        "pronunciation": "/ˈɪnstrəmənt/",
+        "meaning": "dụng cụ, công cụ",
+        "partOfSpeech": "noun",
+        "example": "The dentist sterilized the instruments.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "manage",
+        "pronunciation": "/ˈmænɪdʒ/",
+        "meaning": "xoay xở, giải quyết",
+        "partOfSpeech": "verb",
+        "example": "He managed to finish the report on time.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "prevent",
+        "pronunciation": "/prɪˈvent/",
+        "meaning": "tránh",
+        "partOfSpeech": "verb",
+        "example": "Vaccines help prevent infections.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "recommend",
+        "pronunciation": "/ˌrekəˈmend/",
+        "meaning": "gợi ý, giới thiệu",
+        "partOfSpeech": "verb",
+        "example": "The guide recommended a local restaurant.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "record",
+        "pronunciation": "/ˈrekɔːd/",
+        "meaning": "ghi lại",
+        "partOfSpeech": "verb",
+        "example": "Please record the measurements.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "refer",
+        "pronunciation": "/rɪˈfɜː(r)/",
+        "meaning": "ám chỉ, nói đến",
+        "partOfSpeech": "verb",
+        "example": "Do not refer to the issue during the speech.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "serious",
+        "pronunciation": "/ˈsɪəriəs/",
+        "meaning": "nghiêm trọng",
+        "partOfSpeech": "adjective",
+        "example": "Smoking causes serious health problems.",
+        "difficulty": "easy"
+      }
+    ],
+    "meaning": "Phòng khám bác sĩ"
+  },
+  {
+    "topic": "Dentist's Office",
+    "words": [
+      {
+        "word": "aware",
+        "pronunciation": "/əˈweə(r)/",
+        "meaning": "có kiến thức về",
+        "partOfSpeech": "adjective",
+        "example": "Were you aware of the rule changes?",
+        "difficulty": "easy"
+      },
+      {
+        "word": "catch up",
+        "pronunciation": "/kætʃ ʌp/",
+        "meaning": "theo kịp",
+        "partOfSpeech": "verb",
+        "example": "He walked fast to catch up with the group.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "distraction",
+        "pronunciation": "/dɪˈstrækʃn/",
+        "meaning": "sự sao nhãng",
+        "partOfSpeech": "noun",
+        "example": "Noise is a major distraction when studying.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "encouragement",
+        "pronunciation": "/ɪnˈkʌrɪdʒmənt/",
+        "meaning": "khuyến khích, động viên",
+        "partOfSpeech": "noun",
+        "example": "The teacher gave words of encouragement to the students.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "evident",
+        "pronunciation": "/ˈevɪdənt/",
+        "meaning": "hiển nhiên, rõ ràng",
+        "partOfSpeech": "adjective",
+        "example": "His success was evident to everyone.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "habit",
+        "pronunciation": "/ˈhæbɪt/",
+        "meaning": "thói quen",
+        "partOfSpeech": "noun",
+        "example": "Biting nails is a bad habit.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "illuminate",
+        "pronunciation": "/ɪˈluːmɪneɪt/",
+        "meaning": "chiếu sáng, rọi sáng",
+        "partOfSpeech": "verb",
+        "example": "Candles illuminated the dark room.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "irritate",
+        "pronunciation": "/ˈɪrɪteɪt/",
+        "meaning": "làm ai bực mình",
+        "partOfSpeech": "verb",
+        "example": "His constant complaining irritates me.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "overview",
+        "pronunciation": "/ˈəʊvəvjuː/",
+        "meaning": "khái quát, tổng quan",
+        "partOfSpeech": "noun",
+        "example": "The brochure gives a brief overview of the resort.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "position",
+        "pronunciation": "/pəˈzɪʃn/",
+        "meaning": "địa điểm, vị trí",
+        "partOfSpeech": "noun",
+        "example": "What is your position on this issue?",
+        "difficulty": "easy"
+      },
+      {
+        "word": "regularly",
+        "pronunciation": "/ˈreɡjələli/",
+        "meaning": "thường xuyên",
+        "partOfSpeech": "adverb",
+        "example": "Regularly brush your teeth.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "restore",
+        "pronunciation": "/rɪˈstɔː(r)/",
+        "meaning": "khôi phục",
+        "partOfSpeech": "verb",
+        "example": "The antique painting was restored successfully.",
+        "difficulty": "medium"
+      }
+    ],
+    "meaning": "Phòng khám nha sĩ"
+  },
+  {
+    "topic": "Health Insurance",
+    "words": [
+      {
+        "word": "allow",
+        "pronunciation": "/əˈlaʊ/",
+        "meaning": "cho phép",
+        "partOfSpeech": "verb",
+        "example": "Pets are not allowed in this hotel.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "alternative",
+        "pronunciation": "/ɔːlˈtɜːnətɪv/",
+        "meaning": "thay thế",
+        "partOfSpeech": "noun",
+        "example": "Do you have any alternative plan?",
+        "difficulty": "medium"
+      },
+      {
+        "word": "aspect",
+        "pronunciation": "/ˈæspekt/",
+        "meaning": "bề ngoài, diện mạo",
+        "partOfSpeech": "noun",
+        "example": "Let's consider every aspect of the problem.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "concern",
+        "pronunciation": "/kənˈsɜːn/",
+        "meaning": "quan tâm, lo lắng",
+        "partOfSpeech": "verb",
+        "example": "Global warming concerns everyone.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "emphasize",
+        "pronunciation": "/ˈemfəsaɪz/",
+        "meaning": "nhấn mạnh",
+        "partOfSpeech": "verb",
+        "example": "The teacher emphasized the importance of spelling.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "incur",
+        "pronunciation": "/ɪnˈkɜː(r)/",
+        "meaning": "gánh chịu, chịu lấy",
+        "partOfSpeech": "verb",
+        "example": "You will incur a penalty for late payment.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "personnel",
+        "pronunciation": "/ˌpɜːsəˈnel/",
+        "meaning": "cán bộ nhân viên",
+        "partOfSpeech": "noun",
+        "example": "Only authorized personnel are allowed in the room.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "policy",
+        "pronunciation": "/ˈpɒləsi/",
+        "meaning": "chính sách",
+        "partOfSpeech": "noun",
+        "example": "It is company policy to refund unsatisfied customers.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "portion",
+        "pronunciation": "/ˈpɔːʃn/",
+        "meaning": "phần",
+        "partOfSpeech": "noun",
+        "example": "He ate a large portion of the cake.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "regardless",
+        "pronunciation": "/rɪˈɡɑːdləs/",
+        "meaning": "bất chấp",
+        "partOfSpeech": "adverb",
+        "example": "He continued regardless of the warning.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "salary",
+        "pronunciation": "/ˈsæləri/",
+        "meaning": "lương",
+        "partOfSpeech": "noun",
+        "example": "She receives a competitive monthly salary.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "suitable",
+        "pronunciation": "/ˈsuːtəbl/",
+        "meaning": "phù hợp",
+        "partOfSpeech": "adjective",
+        "example": "This movie is not suitable for children.",
+        "difficulty": "easy"
+      }
+    ],
+    "meaning": "Bảo hiểm y tế"
+  },
+  {
+    "topic": "Hospitals",
+    "words": [
+      {
+        "word": "admit",
+        "pronunciation": "/ədˈmɪt/",
+        "meaning": "cho vào, thừa nhận",
+        "partOfSpeech": "verb",
+        "example": "She admitted making a mistake.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "authorization",
+        "pronunciation": "/ˌɔːθəraɪˈzeɪʃn/",
+        "meaning": "sự cấp, cho phép",
+        "partOfSpeech": "noun",
+        "example": "You need written authorization to access the files.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "designate",
+        "pronunciation": "/ˈdezɪɡneɪt/",
+        "meaning": "được chỉ định",
+        "partOfSpeech": "verb",
+        "example": "The area is designated for parking.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "escort",
+        "pronunciation": "/ˈeskɔːt/",
+        "meaning": "vệ sĩ",
+        "partOfSpeech": "noun",
+        "example": "The guards escorted the politician to the hall.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "identify",
+        "pronunciation": "/aɪˈdentɪfaɪ/",
+        "meaning": "nhận dạng, nhận biết",
+        "partOfSpeech": "verb",
+        "example": "Please identify your bag from the pile.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "missing",
+        "pronunciation": "/ˈmɪsɪŋ/",
+        "meaning": "mất tích, vắng mặt",
+        "partOfSpeech": "adjective",
+        "example": "The police are searching for the missing child.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "permit",
+        "pronunciation": "/pəˈmɪt/",
+        "meaning": "cho phép",
+        "partOfSpeech": "verb",
+        "example": "Smoking is not permitted in this building.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "pertinent",
+        "pronunciation": "/ˈpɜːtɪnənt/",
+        "meaning": "thích hợp",
+        "partOfSpeech": "adjective",
+        "example": "Please provide all pertinent documents.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "procedure",
+        "pronunciation": "/prəˈsiːdʒə(r)/",
+        "meaning": "thủ tục",
+        "partOfSpeech": "noun",
+        "example": "What is the procedure for booking a flight?",
+        "difficulty": "medium"
+      },
+      {
+        "word": "surgery",
+        "pronunciation": "/ˈsɜːdʒəri/",
+        "meaning": "ca phẫu thuật",
+        "partOfSpeech": "noun",
+        "example": "The surgeon performed the surgery successfully.",
+        "difficulty": "hard"
+      },
+      {
+        "word": "suspect",
+        "pronunciation": "/səˈspekt/",
+        "meaning": "nghi ngờ",
+        "partOfSpeech": "verb",
+        "example": "The doctors suspect that he has food poisoning.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "usual",
+        "pronunciation": "/ˈjuːʒuəl/",
+        "meaning": "bình thường",
+        "partOfSpeech": "adjective",
+        "example": "He sat in his usual seat on the train.",
+        "difficulty": "easy"
+      }
+    ],
+    "meaning": "Bệnh viện"
+  },
+  {
+    "topic": "Pharmacy",
+    "words": [
+      {
+        "word": "consult",
+        "pronunciation": "/kənˈsʌlt/",
+        "meaning": "hỏi ý kiến, tham khảo",
+        "partOfSpeech": "verb",
+        "example": "Consult a doctor if symptoms persist.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "control",
+        "pronunciation": "/kənˈtrəʊl/",
+        "meaning": "kiểm soát",
+        "partOfSpeech": "verb",
+        "example": "The pilot controlled the plane well.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "convenient",
+        "pronunciation": "/kənˈviːniənt/",
+        "meaning": "tiện lợi, thuận tiện",
+        "partOfSpeech": "adjective",
+        "example": "The hotel is in a very convenient location.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "detect",
+        "pronunciation": "/dɪˈtekt/",
+        "meaning": "nhận thấy, phát hiện ra",
+        "partOfSpeech": "verb",
+        "example": "The sensor detected a gas leak.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "factor",
+        "pronunciation": "/ˈfæktə(r)/",
+        "meaning": "nhân tố",
+        "partOfSpeech": "noun",
+        "example": "Diet is an important factor in health.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "interaction",
+        "pronunciation": "/ˌɪntərˈækʃn/",
+        "meaning": "sự ảnh hưởng lẫn nhau",
+        "partOfSpeech": "noun",
+        "example": "The online course features high student interaction.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "limit",
+        "pronunciation": "/ˈlɪmɪt/",
+        "meaning": "giới hạn",
+        "partOfSpeech": "noun",
+        "example": "The speed limit is 60 miles per hour.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "monitor",
+        "pronunciation": "/ˈmɒnɪtə(r)/",
+        "meaning": "giám sát, theo dõi",
+        "partOfSpeech": "verb",
+        "example": "Nurses monitor the patient's heart rate.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "potential",
+        "pronunciation": "/pəˈtenʃl/",
+        "meaning": "tiềm năng, tiềm tàng",
+        "partOfSpeech": "adjective",
+        "example": "The team has potential to win.",
+        "difficulty": "medium"
+      },
+      {
+        "word": "sample",
+        "pronunciation": "/ˈsɑːmpl/",
+        "meaning": "mẫu, vật mẫu",
+        "partOfSpeech": "noun",
+        "example": "They analyzed the blood sample.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "sense",
+        "pronunciation": "/sens/",
+        "meaning": "khả năng đánh giá, sự am hiểu",
+        "partOfSpeech": "noun",
+        "example": "He has a great sense of humor.",
+        "difficulty": "easy"
+      },
+      {
+        "word": "volunteer",
+        "pronunciation": "/ˌvɒlənˈtɪə(r)/",
+        "meaning": "người tình nguyện",
+        "partOfSpeech": "noun",
+        "example": "The library is run by volunteers.",
+        "difficulty": "medium"
+      }
+    ],
+    "meaning": "Nhà thuốc"
+  }
+]

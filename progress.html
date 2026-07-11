@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TOEIC 600 Vocabulary - Tiến độ học tập</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- Loading Animation -->
+  <div id="loading-overlay">
+    <div class="spinner-wrapper">
+      <div class="custom-spinner"></div>
+      <h5 class="fw-semibold text-muted">Đang tải biểu đồ thống kê...</h5>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <i class="bi bi-rocket-takeoff-fill"></i>
+        <span>TOEIC 600 Vocabulary</span>
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><i class="bi bi-house-door-fill"></i> Trang chủ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="topics.html"><i class="bi bi-journal-bookmark-fill"></i> Chủ đề</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="quiz.html"><i class="bi bi-patch-question-fill"></i> Trắc nghiệm</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="review.html"><i class="bi bi-arrow-repeat"></i> Ôn tập</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="progress.html"><i class="bi bi-bar-chart-fill"></i> Tiến độ</a>
+          </li>
+          <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+            <button id="theme-toggle-btn" class="btn btn-outline-secondary border-0 rounded-circle p-2 d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;" title="Đổi giao diện">
+              <i class="bi bi-moon-stars-fill"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <main class="container py-4 page-fade">
+    
+    <!-- Header -->
+    <header class="row mb-4">
+      <div class="col-12">
+        <h2 class="fw-bold m-0"><i class="bi bi-bar-chart-fill text-primary me-2"></i>Báo cáo tiến độ học tập</h2>
+        <p class="text-muted small mb-0">Theo dõi chi tiết số liệu, lịch sử làm bài và biểu đồ phân tích cá nhân.</p>
+      </div>
+    </header>
+
+    <!-- Stats Dashboard grid -->
+    <section class="row g-4 mb-5">
+      <!-- 1. Streak -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="game-card stat-card h-100">
+          <i class="bi bi-fire text-warning fs-3 mb-2 d-block"></i>
+          <div class="stat-val" id="prog-streak">0</div>
+          <div class="stat-label">Chuỗi ngày học</div>
+        </div>
+      </div>
+      <!-- 2. Learned Words -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="game-card stat-card h-100">
+          <i class="bi bi-book-half text-primary fs-3 mb-2 d-block"></i>
+          <div class="stat-val" id="prog-learned">0/600</div>
+          <div class="stat-label">Từ vựng đã học</div>
+        </div>
+      </div>
+      <!-- 3. Completed Topics -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="game-card stat-card h-100">
+          <i class="bi bi-journal-check text-success fs-3 mb-2 d-block"></i>
+          <div class="stat-val" id="prog-topics">0/30</div>
+          <div class="stat-label">Chủ đề hoàn thành</div>
+        </div>
+      </div>
+      <!-- 4. Quiz count -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="game-card stat-card h-100">
+          <i class="bi bi-patch-question-fill text-info fs-3 mb-2 d-block"></i>
+          <div class="stat-val" id="prog-quiz-count">0</div>
+          <div class="stat-label">Bài Quiz đã làm</div>
+        </div>
+      </div>
+      <!-- 5. Average Score -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="game-card stat-card h-100">
+          <i class="bi bi-award-fill text-danger fs-3 mb-2 d-block"></i>
+          <div class="stat-val" id="prog-avg-score">0%</div>
+          <div class="stat-label">Điểm trung bình</div>
+        </div>
+      </div>
+      <!-- 6. Study time -->
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="game-card stat-card h-100">
+          <i class="bi bi-clock-fill text-secondary fs-3 mb-2 d-block"></i>
+          <div class="stat-val" id="prog-time">0m</div>
+          <div class="stat-label">Thời gian học</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Analytics Charts -->
+    <section class="row g-4 mb-5">
+      <!-- Word distribution across levels -->
+      <div class="col-12 col-lg-6">
+        <div class="game-card h-100">
+          <h5 class="fw-bold mb-3"><i class="bi bi-bar-chart-steps me-2 text-primary"></i>Phân bổ từ vựng theo độ khó</h5>
+          <p class="text-muted small">So sánh số từ đã thuộc so với tổng số từ theo từng mức độ Easy, Medium, Hard.</p>
+          <canvas id="bar-chart-difficulty" class="pure-chart"></canvas>
+        </div>
+      </div>
+      
+      <!-- Quiz Performance trend -->
+      <div class="col-12 col-lg-6">
+        <div class="game-card h-100">
+          <h5 class="fw-bold mb-3"><i class="bi bi-graph-up me-2 text-primary"></i>Xu hướng điểm số Quiz gần đây</h5>
+          <p class="text-muted small">Biểu đồ thể hiện kết quả điểm số (%) của tối đa 10 bài kiểm tra trắc nghiệm gần nhất.</p>
+          <canvas id="line-chart-quiz" class="pure-chart"></canvas>
+          
+          <div id="chart-quiz-empty" class="empty-state d-none" style="padding: 1.5rem 0;">
+            <p class="text-muted small m-0">Hãy làm ít nhất 1 bài kiểm tra trắc nghiệm để mở khóa biểu đồ xu hướng.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reset option -->
+    <section class="row">
+      <div class="col-12">
+        <div class="game-card border border-danger border-opacity-25 bg-danger bg-opacity-10 p-4 rounded-4 d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-4">
+          <div>
+            <h5 class="fw-bold text-danger mb-1"><i class="bi bi-exclamation-triangle-fill me-1"></i>Xóa dữ liệu học tập</h5>
+            <p class="text-muted small m-0">Hành động này sẽ xóa vĩnh viễn toàn bộ từ vựng đã nhớ, điểm số, chuỗi ngày học và khôi phục website về trạng thái ban đầu.</p>
+          </div>
+          <button id="btn-reset-data" class="btn btn-game btn-game-danger py-2 px-4 text-nowrap">
+            Xóa toàn bộ dữ liệu
+          </button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-4 border-top border-color text-center text-muted mt-5">
+    <div class="container">
+      <p class="m-0 small">&copy; 2026 TOEIC 600 Vocabulary. Phát triển bởi Antigravity Team.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <!-- Storage and Audio Helpers -->
+  <script src="js/storage.js"></script>
+  <script src="js/speech.js"></script>
+  <script src="js/main.js"></script>
+  <!-- Progress logic -->
+  <script src="js/progress.js"></script>
+
+</body>
+</html>

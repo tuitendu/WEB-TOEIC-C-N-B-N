@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TOEIC 600 Vocabulary - Trang chủ</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- Loading Animation -->
+  <div id="loading-overlay">
+    <div class="spinner-wrapper">
+      <div class="custom-spinner"></div>
+      <h5 class="fw-semibold text-muted">Đang tải TOEIC 600...</h5>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <i class="bi bi-rocket-takeoff-fill"></i>
+        <span>TOEIC 600 Vocabulary</span>
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><i class="bi bi-house-door-fill"></i> Trang chủ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="topics.html"><i class="bi bi-journal-bookmark-fill"></i> Chủ đề</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="quiz.html"><i class="bi bi-patch-question-fill"></i> Trắc nghiệm</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="review.html"><i class="bi bi-arrow-repeat"></i> Ôn tập</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="progress.html"><i class="bi bi-bar-chart-fill"></i> Tiến độ</a>
+          </li>
+          <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+            <button id="theme-toggle-btn" class="btn btn-outline-secondary border-0 rounded-circle p-2 d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;" title="Đổi giao diện">
+              <i class="bi bi-moon-stars-fill"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <main class="container py-4 page-fade">
+    
+    <!-- Hero Banner Section -->
+    <section class="row mb-5">
+      <div class="col-12">
+        <div class="hero-banner d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-4">
+          <div>
+            <h1 class="fw-bold mb-2">Chinh phục 600 từ vựng TOEIC!</h1>
+            <p class="mb-4 opacity-90">Phương pháp học flashcard thông minh kết hợp làm trắc nghiệm giúp ghi nhớ từ vựng hiệu quả.</p>
+            <button id="continue-study-btn" class="btn btn-game btn-game-primary px-4 py-2 text-white">
+              <i class="bi bi-play-fill me-1"></i> Bắt đầu học
+            </button>
+          </div>
+          <div class="d-flex gap-3 align-items-center">
+            <!-- Daily Streak Badge -->
+            <div class="p-3 text-center rounded-4 bg-white bg-opacity-20 backdrop-blur" style="min-width: 100px;">
+              <i class="bi bi-fire text-warning fs-1 mb-1 d-block"></i>
+              <span id="streak-val" class="fw-bold fs-4 d-block text-white">0</span>
+              <small class="text-white text-opacity-75" style="font-size: 0.75rem;">Ngày học liên tục</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Overall Statistics Summary -->
+    <section class="row g-4 mb-5">
+      <div class="col-12">
+        <div class="game-card">
+          <h4 class="fw-bold mb-4 d-flex align-items-center gap-2">
+            <i class="bi bi-pie-chart-fill text-primary"></i> Tiến độ tổng quan
+          </h4>
+          <div class="row g-4 text-center align-items-center mb-4">
+            <div class="col-6 col-md-3">
+              <div class="fs-2 fw-bold text-primary" id="stat-completed-topics">0/30</div>
+              <div class="text-muted small">Chủ đề hoàn thành</div>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="fs-2 fw-bold text-primary" id="stat-learned-words">0/600</div>
+              <div class="text-muted small">Từ vựng đã học</div>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="fs-2 fw-bold text-primary" id="stat-wrong-words">0</div>
+              <div class="text-muted small">Từ vựng cần ôn tập</div>
+            </div>
+            <div class="col-6 col-md-3">
+              <div class="fs-2 fw-bold text-primary" id="stat-completion-rate">0%</div>
+              <div class="text-muted small">Tỷ lệ hoàn thành</div>
+            </div>
+          </div>
+          <!-- Progress bar -->
+          <div class="progress-container">
+            <div class="progress-bar-animated" id="overall-progress-bar"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recent Topics / Dashboard Section -->
+    <section class="row mb-5">
+      <div class="col-12 d-flex justify-content-between align-items-center mb-4">
+        <h4 class="fw-bold m-0"><i class="bi bi-compass-fill text-primary me-2"></i>Chủ đề đề xuất học tiếp</h4>
+        <a href="topics.html" class="btn btn-sm btn-game btn-game-outline">Xem tất cả <i class="bi bi-chevron-right ms-1"></i></a>
+      </div>
+      <div class="col-12">
+        <div class="row g-4" id="recent-topics-grid">
+          <!-- Dynamically populated via javascript -->
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-4 border-top border-color text-center text-muted">
+    <div class="container">
+      <p class="m-0 small">&copy; 2026 TOEIC 600 Vocabulary. Phát triển bởi Antigravity Team.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <!-- Storage and Audio Helpers -->
+  <script src="js/storage.js"></script>
+  <script src="js/speech.js"></script>
+  <script src="js/main.js"></script>
+  
+  <script>
+    // Home Dashboard Logic
+    document.addEventListener('DOMContentLoaded', async () => {
+      const db = await App.getDatabase();
+      if (!db || db.length === 0) return;
+
+      // Render stats
+      const learnedList = StorageManager.getLearnedWords();
+      const completedTopics = StorageManager.getCompletedTopics();
+      const wrongList = StorageManager.getWrongWords();
+      const totalWords = db.reduce((sum, t) => sum + t.words.length, 0);
+      const totalTopics = db.length;
+      
+      const completionRate = totalWords > 0 ? Math.round((learnedList.length / totalWords) * 100) : 0;
+
+      document.getElementById('stat-completed-topics').textContent = `${completedTopics.length}/${totalTopics}`;
+      document.getElementById('stat-learned-words').textContent = `${learnedList.length}/${totalWords}`;
+      document.getElementById('stat-wrong-words').textContent = wrongList.length;
+      document.getElementById('stat-completion-rate').textContent = `${completionRate}%`;
+
+      // Set progress bar width
+      const progBar = document.getElementById('overall-progress-bar');
+      if (progBar) progBar.style.width = `${completionRate}%`;
+
+      // Set Streak fire badge
+      document.getElementById('streak-val').textContent = StorageManager.getStreak();
+
+      // Continue study btn behavior
+      const lastTopic = StorageManager.getLastTopic();
+      const studyBtn = document.getElementById('continue-study-btn');
+      if (lastTopic) {
+        studyBtn.innerHTML = `<i class="bi bi-play-fill me-1"></i> Tiếp tục học: ${lastTopic}`;
+        studyBtn.addEventListener('click', () => {
+          window.location.href = `study.html?topic=${encodeURIComponent(lastTopic)}`;
+        });
+      } else {
+        studyBtn.addEventListener('click', () => {
+          window.location.href = 'topics.html';
+        });
+      }
+
+      // Populate recent/recommended topics cards
+      const container = document.getElementById('recent-topics-grid');
+      container.innerHTML = '';
+
+      // Pick top 3 topics. We can pick last topic + next two topics in list
+      let selectedTopics = [];
+      const lastTopicIdx = db.findIndex(t => t.topic === lastTopic);
+      if (lastTopicIdx !== -1) {
+        selectedTopics.push(db[lastTopicIdx]);
+        // Pick next two
+        if (db[lastTopicIdx + 1]) selectedTopics.push(db[lastTopicIdx + 1]);
+        if (db[lastTopicIdx + 2]) selectedTopics.push(db[lastTopicIdx + 2]);
+      } else {
+        // Pick first 3 topics
+        selectedTopics = db.slice(0, 3);
+      }
+
+      // Pad up if we don't have enough
+      if (selectedTopics.length < 3) {
+        selectedTopics = db.slice(0, 3);
+      }
+
+      selectedTopics.forEach(t => {
+        const topicWords = t.words.map(w => w.word);
+        const topicLearnedCount = topicWords.filter(w => learnedList.includes(w)).length;
+        const topicProgress = topicWords.length > 0 ? Math.round((topicLearnedCount / topicWords.length) * 100) : 0;
+        
+        let badgeHTML = '';
+        if (topicProgress === 100) {
+          badgeHTML = `<span class="badge bg-success rounded-pill"><i class="bi bi-check-circle-fill"></i> Hoàn thành</span>`;
+        } else if (topicProgress > 0) {
+          badgeHTML = `<span class="badge bg-warning text-dark rounded-pill"><i class="bi bi-hourglass-split"></i> Đang học</span>`;
+        } else {
+          badgeHTML = `<span class="badge bg-secondary rounded-pill">Chưa học</span>`;
+        }
+
+        const col = document.createElement('div');
+        col.className = 'col-12 col-md-4';
+        col.innerHTML = `
+          <div class="game-card h-100 d-flex flex-column justify-content-between">
+            <div>
+              <div class="d-flex justify-content-between align-items-start mb-2">
+                <h5 class="fw-bold m-0 text-truncate" style="max-width: 70%;">${t.topic}</h5>
+                ${badgeHTML}
+              </div>
+              <p class="text-muted small mb-3">${t.words.length} từ vựng</p>
+              
+              <div class="mb-3">
+                <div class="d-flex justify-content-between mb-1 small text-muted">
+                  <span>Tiến độ</span>
+                  <span>${topicProgress}%</span>
+                </div>
+                <div class="progress-container" style="height: 10px;">
+                  <div class="progress-bar-animated" style="width: ${topicProgress}%;"></div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="d-flex gap-2 mt-3">
+              <a href="study.html?topic=${encodeURIComponent(t.topic)}" class="btn btn-sm btn-game btn-game-primary flex-fill">Học từ</a>
+              <a href="quiz.html?topic=${encodeURIComponent(t.topic)}" class="btn btn-sm btn-game btn-game-outline flex-fill">Quiz</a>
+            </div>
+          </div>
+        `;
+        container.appendChild(col);
+      });
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+/* 
+  TOEIC 600 Vocabulary learning website
+  Responsive Overrides
+  Author: Senior Front-end Developer & UI/UX Designer
+*/
+
+/* Tablet Viewports (under 992px) */
+@media (max-width: 991.98px) {
+  body {
+    padding-top: 70px;
+  }
+  
+  .navbar-brand {
+    font-size: 1.25rem;
+  }
+  
+  .hero-banner {
+    padding: 2rem;
+  }
+  
+  .flashcard-wrapper {
+    height: 320px;
+  }
+  
+  .card-face {
+    padding: 2rem;
+  }
+}
+
+/* Mobile Viewports (under 768px) */
+@media (max-width: 767.98px) {
+  body {
+    padding-top: 66px;
+  }
+  
+  .hero-banner {
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  .hero-banner h1 {
+    font-size: 1.8rem;
+  }
+  
+  .hero-banner .btn-game {
+    width: 100%;
+    margin-top: 8px;
+  }
+  
+  .flashcard-wrapper {
+    height: 300px;
+  }
+  
+  .card-face {
+    padding: 1.5rem;
+  }
+  
+  .card-face h2 {
+    font-size: 1.8rem;
+  }
+  
+  .stat-card .stat-val {
+    font-size: 1.8rem;
+  }
+  
+  .option-btn {
+    padding: 0.85rem 1.2rem;
+    font-size: 0.95rem;
+  }
+  
+  .toast-container-custom {
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+  }
+  
+  .toast-custom {
+    min-width: 100%;
+  }
+
+  .nav-link {
+    padding: 0.6rem 1rem !important;
+    border-radius: 8px;
+    margin: 2px 0;
+  }
+}
+
+/* Very Small Mobile Viewports (under 480px) */
+@media (max-width: 479.98px) {
+  .flashcard-wrapper {
+    height: 280px;
+  }
+  
+  .card-face h2 {
+    font-size: 1.6rem;
+  }
+  
+  .btn-speaker {
+    width: 44px;
+    height: 44px;
+    font-size: 1.2rem;
+  }
+  
+  .card-face p.example {
+    font-size: 0.85rem;
+    line-height: 1.4;
+  }
+}

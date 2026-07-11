@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Color Variables */
+:root {
+  --primary: #2563EB;
+  --primary-hover: #1D4ED8;
+  --secondary: #0EA5E9;
+  --bg-base: #F8FAFC;
+  --bg-card: #FFFFFF;
+  --text-main: #0F172A;
+  --text-muted: #64748B;
+  --border-color: #E2E8F0;
+  --success: #22C55E;
+  --danger: #EF4444;
+  --warning: #F59E0B;
+  
+  --font-main: 'Poppins', sans-serif;
+  --border-radius: 16px;
+  --border-radius-lg: 24px;
+  
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.02);
+  --shadow-md: 0 8px 24px rgba(148, 163, 184, 0.12);
+  --shadow-lg: 0 16px 32px rgba(148, 163, 184, 0.18);
+}
+
+/* Dark Theme Overrides */
+body.dark-theme {
+  --bg-base: #0F172A;
+  --bg-card: #1E293B;
+  --text-main: #F1F5F9;
+  --text-muted: #94A3B8;
+  --border-color: #334155;
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.25);
+  --shadow-lg: 0 16px 32px rgba(0, 0, 0, 0.35);
+}
+
+/* Core Settings */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--bg-base);
+  color: var(--text-main);
+  min-height: 100vh;
+  padding-top: 76px;
+}
+
+/* Fix Bootstrap Utilities in Dark Mode */
+body.dark-theme .text-muted {
+  color: var(--text-muted) !important;
+}
+body.dark-theme .bg-white {
+  background-color: var(--bg-card) !important;
+}
+body.dark-theme .input-group-text,
+body.dark-theme .form-control,
+body.dark-theme .form-select {
+  background-color: var(--bg-card) !important;
+  color: var(--text-main) !important;
+  border-color: var(--border-color) !important;
+}
+body.dark-theme .input-group-text {
+  color: var(--text-muted) !important;
+}
+body.dark-theme .form-control::placeholder {
+  color: var(--text-muted) !important;
+  opacity: 0.6;
+}
+body.dark-theme .border-color {
+  border-color: var(--border-color) !important;
+}
+
+/* Layout Custom */
+.navbar-custom {
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 2px solid var(--border-color);
+  transition: all 0.3s ease;
+}
+body.dark-theme .navbar-custom {
+  background-color: rgba(15, 23, 42, 0.85);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  color: var(--primary) !important;
+  font-size: 1.4rem;
+  letter-spacing: -0.5px;
+}
+
+.nav-link {
+  font-weight: 500;
+  color: var(--text-muted) !important;
+  padding: 0.5rem 1rem !important;
+  border-radius: 12px;
+  margin: 0 0.1rem;
+  transition: all 0.2s ease;
+}
+.nav-link:hover, .nav-link.active {
+  color: var(--primary) !important;
+  background-color: rgba(37, 99, 235, 0.08);
+}
+body.dark-theme .nav-link:hover, body.dark-theme .nav-link.active {
+  background-color: rgba(37, 99, 235, 0.15);
+}
+
+/* Premium Gamified Cards */
+.game-card {
+  background: var(--bg-card);
+  border: 2px solid var(--border-color);
+  border-radius: var(--border-radius);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-sm);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.game-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--primary);
+  box-shadow: var(--shadow-md);
+}
+
+/* Progress bar container */
+.progress-container {
+  background-color: var(--border-color);
+  border-radius: 20px;
+  overflow: hidden;
+  height: 12px;
+  position: relative;
+}
+.progress-bar-animated {
+  background: linear-gradient(90deg, var(--primary), var(--secondary));
+  height: 100%;
+  border-radius: 20px;
+  transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Custom Premium Buttons */
+.btn-game {
+  font-weight: 600;
+  border-radius: 14px;
+  padding: 0.6rem 1.2rem;
+  border: 2px solid transparent;
+  transition: all 0.2s ease;
+}
+.btn-game-primary {
+  background-color: var(--primary);
+  color: #FFFFFF !important;
+}
+.btn-game-primary:hover {
+  background-color: var(--primary-hover);
+  transform: translateY(-2px);
+}
+.btn-game-outline {
+  background-color: transparent;
+  border-color: var(--border-color);
+  color: var(--text-main);
+}
+.btn-game-outline:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+  background-color: rgba(37, 99, 235, 0.04);
+  transform: translateY(-2px);
+}
+body.dark-theme .btn-game-outline:hover {
+  background-color: rgba(37, 99, 235, 0.1);
+}
+
+/* Hero Section */
+.hero-banner {
+  background: linear-gradient(135deg, #1E3A8A, #3B82F6);
+  border-radius: var(--border-radius-lg);
+  padding: 2.5rem;
+  color: #FFFFFF;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Flashcard Styles */
+.flashcard-wrapper {
+  perspective: 1000px;
+  width: 100%;
+  max-width: 550px;
+  height: 350px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+.flashcard-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-style: preserve-3d;
+}
+.flashcard-wrapper.is-flipped .flashcard-inner {
+  transform: rotateY(180deg);
+}
+.card-front, .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border-radius: var(--border-radius-lg);
+  border: 3px solid var(--border-color);
+  background-color: var(--bg-card);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: var(--shadow-lg);
+}
+.card-back {
+  transform: rotateY(180deg);
+}
+
+/* Pronunciation detail visibility */
+.ipa-symbol {
+  color: var(--primary);
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+body.dark-theme .ipa-symbol {
+  color: var(--secondary) !important;
+}
+
+/* Hint Text under Card */
+.hint-text {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin-top: 1rem;
+}
+body.dark-theme .hint-text {
+  color: var(--text-muted) !important;
+}
+
+/* Quiz Option Item */
+.quiz-option-btn {
+  background-color: var(--bg-card);
+  border: 2px solid var(--border-color);
+  border-radius: var(--border-radius);
+  color: var(--text-main);
+  padding: 1rem 1.5rem;
+  font-weight: 500;
+  width: 100%;
+  text-align: left;
+  transition: all 0.2s ease;
+  margin-bottom: 0.75rem;
+}
+.quiz-option-btn:hover {
+  border-color: var(--primary);
+  background-color: rgba(37, 99, 235, 0.02);
+}
+body.dark-theme .quiz-option-btn:hover {
+  background-color: rgba(37, 99, 235, 0.06);
+}
+.quiz-option-btn.selected {
+  border-color: var(--primary);
+  background-color: rgba(37, 99, 235, 0.06);
+}
+.quiz-option-btn.correct {
+  border-color: var(--success);
+  background-color: rgba(34, 197, 94, 0.08);
+}
+.quiz-option-btn.incorrect {
+  border-color: var(--danger);
+  background-color: rgba(239, 68, 68, 0.08);
+}
+
+/* Explanation Container */
+.explain-card {
+  background-color: rgba(37, 99, 235, 0.04);
+  border-left: 4px solid var(--primary);
+  border-radius: 0 12px 12px 0;
+  padding: 1rem 1.25rem;
+  margin-top: 1.5rem;
+}
+body.dark-theme .explain-card {
+  background-color: rgba(37, 99, 235, 0.1);
+  border-left-color: var(--secondary);
+}
+
+/* Toast alert styling */
+.custom-toast {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background-color: var(--bg-card);
+  border: 2px solid var(--border-color);
+  border-left: 6px solid var(--primary);
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: var(--shadow-lg);
+  z-index: 10000;
+  animation: slideIn 0.3s ease-out;
+}
+@keyframes slideIn {
+  from { transform: translateX(100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+/* Stats Badges */
+.streak-badge {
+  background-color: rgba(245, 158, 11, 0.1);
+  color: var(--warning);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+/* ===== AUTH PAGES =========================================================*/
+.auth-page {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  padding: 2rem 1rem;
+}
+
+.auth-card {
+  padding: 2.5rem 2rem;
+  animation: fadeInUp 0.4s ease-out;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Dark mode overrides for auth inputs */
+.dark-theme .auth-page {
+  background: linear-gradient(135deg, #0d0d1a 0%, #0a1020 50%, #071830 100%);
+}
+

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TOEIC 600 Vocabulary - Trắc nghiệm từ vựng</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- Loading Animation -->
+  <div id="loading-overlay">
+    <div class="spinner-wrapper">
+      <div class="custom-spinner"></div>
+      <h5 class="fw-semibold text-muted">Đang thiết lập bài kiểm tra...</h5>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+        <i class="bi bi-rocket-takeoff-fill"></i>
+        <span>TOEIC 600 Vocabulary</span>
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><i class="bi bi-house-door-fill"></i> Trang chủ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="topics.html"><i class="bi bi-journal-bookmark-fill"></i> Chủ đề</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="quiz.html"><i class="bi bi-patch-question-fill"></i> Trắc nghiệm</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="review.html"><i class="bi bi-arrow-repeat"></i> Ôn tập</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="progress.html"><i class="bi bi-bar-chart-fill"></i> Tiến độ</a>
+          </li>
+          <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+            <button id="theme-toggle-btn" class="btn btn-outline-secondary border-0 rounded-circle p-2 d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;" title="Đổi giao diện">
+              <i class="bi bi-moon-stars-fill"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <main class="container py-4 page-fade">
+    
+    <!-- 1. Selection screen (if no topic parameter) -->
+    <section id="selection-section" class="row justify-content-center my-4 d-none">
+      <div class="col-12 col-md-8 col-lg-6">
+        <div class="game-card text-center p-4">
+          <i class="bi bi-patch-question text-primary display-4 mb-3"></i>
+          <h3 class="fw-bold mb-3">Trắc nghiệm Từ vựng</h3>
+          <p class="text-muted mb-4">Hãy chọn chủ đề bạn muốn kiểm tra kiến thức hoặc chọn chế độ ôn tập ngẫu nhiên toàn bộ từ vựng.</p>
+          
+          <div class="mb-4 text-start">
+            <label class="form-label fw-semibold text-muted">Chọn chủ đề kiểm tra:</label>
+            <select id="topic-select" class="form-select border-2 border-color rounded-4 p-2 dark-input mb-3">
+              <option value="all-random">Ngẫu nhiên tất cả 600 từ</option>
+              <!-- Populated via JS -->
+            </select>
+          </div>
+
+          <button id="start-quiz-btn" class="btn btn-game btn-game-primary w-100 py-3">
+            Bắt đầu Kiểm tra
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Quiz Arena Screen -->
+    <section id="quiz-arena-section" class="row justify-content-center my-4 d-none">
+      <div class="col-12 col-md-8 col-lg-6">
+        
+        <!-- Quiz Header Stats -->
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <div>
+            <h5 class="fw-bold m-0" id="quiz-topic-title">Tên Chủ Đề</h5>
+            <span class="text-muted small" id="question-index-label">Câu hỏi 0/0</span>
+          </div>
+          <div class="text-end">
+            <span class="badge bg-secondary rounded-pill fw-semibold" id="quiz-timer">Thời gian: 00:00</span>
+          </div>
+        </div>
+
+        <!-- Quiz Progress Bar -->
+        <div class="progress-container mb-4" style="height: 10px;">
+          <div class="progress-bar-animated" id="quiz-progress-bar"></div>
+        </div>
+
+        <!-- Question Box Card -->
+        <div class="game-card mb-4 p-4">
+          <div class="d-flex align-items-center gap-3 mb-3">
+            <!-- Audio Speaker if auditory question -->
+            <button class="btn-speaker" id="quiz-btn-speak" title="Nghe lại phát âm">
+              <i class="bi bi-volume-up-fill"></i>
+            </button>
+            <h4 class="fw-bold m-0" id="question-text">Câu hỏi hiển thị ở đây</h4>
+          </div>
+          <div class="text-muted small fs-6" id="question-instruction">Chọn đáp án đúng dưới đây:</div>
+        </div>
+
+        <!-- Multiple Choice Options -->
+        <div id="options-container">
+          <!-- Dynamically populated via JS -->
+        </div>
+
+        <!-- Explanation card (hidden until option selected) -->
+        <div id="explanation-container" class="game-card bg-light border border-color rounded-4 p-3 mb-4 d-none dark-bg-dark">
+          <div class="d-flex align-items-start gap-2">
+            <i class="bi bi-info-circle-fill text-primary mt-1"></i>
+            <div>
+              <div class="fw-bold text-primary mb-1">Giải thích & Ngữ cảnh:</div>
+              <p class="m-0 text-dark-mode-light" id="explanation-text">Ví dụ hoặc ghi chú</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Next question button -->
+        <button id="quiz-next-btn" class="btn btn-game btn-game-primary w-100 py-3 d-none">
+          Câu tiếp theo <i class="bi bi-arrow-right"></i>
+        </button>
+
+      </div>
+    </section>
+
+    <!-- 3. Results Dashboard Screen -->
+    <section id="results-section" class="row justify-content-center my-4 d-none">
+      <div class="col-12 col-md-10 col-lg-8">
+        <div class="game-card p-4">
+          
+          <!-- Title Celebration -->
+          <div class="text-center mb-4">
+            <div class="display-1 fw-bold text-primary" id="grade-badge" style="letter-spacing: -2px;">A</div>
+            <h3 class="fw-bold" id="results-headline">Đánh giá chung!</h3>
+            <p class="text-muted" id="results-subhead">Hãy ôn tập lại để nâng cao kết quả học nhé</p>
+          </div>
+
+          <!-- Stats Grid -->
+          <div class="row g-3 mb-4 text-center">
+            <div class="col-6 col-sm-3">
+              <div class="stat-card border border-color rounded-4 h-100 bg-light dark-bg-dark">
+                <div class="stat-val text-success" id="res-correct">0</div>
+                <div class="stat-label">Câu trả lời đúng</div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-3">
+              <div class="stat-card border border-color rounded-4 h-100 bg-light dark-bg-dark">
+                <div class="stat-val text-danger" id="res-incorrect">0</div>
+                <div class="stat-label">Câu trả lời sai</div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-3">
+              <div class="stat-card border border-color rounded-4 h-100 bg-light dark-bg-dark">
+                <div class="stat-val text-primary" id="res-accuracy">0%</div>
+                <div class="stat-label">Tỷ lệ chính xác</div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-3">
+              <div class="stat-card border border-color rounded-4 h-100 bg-light dark-bg-dark">
+                <div class="stat-val text-secondary" id="res-time">00:00</div>
+                <div class="stat-label">Thời gian làm bài</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Action Control Buttons -->
+          <div class="d-flex flex-column flex-sm-row gap-3">
+            <button id="res-btn-retry" class="btn btn-game btn-game-primary flex-fill py-3">
+              <i class="bi bi-arrow-clockwise"></i> Làm lại Quiz
+            </button>
+            <a href="review.html" class="btn btn-game btn-game-outline flex-fill py-3 text-center">
+              <i class="bi bi-arrow-repeat"></i> Ôn tập từ sai
+            </a>
+            <a href="topics.html" class="btn btn-game btn-game-outline flex-fill py-3 text-center">
+              <i class="bi bi-journal-bookmark"></i> Quay lại chủ đề
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="py-4 border-top border-color text-center text-muted mt-5">
+    <div class="container">
+      <p class="m-0 small">&copy; 2026 TOEIC 600 Vocabulary. Phát triển bởi Antigravity Team.</p>
+    </div>
+  </footer>
+
+  <!-- Confetti Celebration Library -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <!-- Storage and Audio Helpers -->
+  <script src="js/storage.js"></script>
+  <script src="js/speech.js"></script>
+  <script src="js/main.js"></script>
+  <!-- Quiz logic -->
+  <script src="js/quiz.js"></script>
+
+</body>
+</html>
