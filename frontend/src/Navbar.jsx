@@ -8,6 +8,7 @@ export default function Navbar({ theme, toggleTheme, username, onLogout }) {
   const navItems = [
     { path: '/',        label: 'Trang chủ' },
     { path: '/topics',  label: 'Chủ đề' },
+    { path: '/grammar', label: 'Ngữ pháp' },
     { path: '/quiz',    label: 'Trắc nghiệm' },
     { path: '/review',  label: 'Ôn tập' },
     { path: '/progress',label: 'Tiến độ' },
@@ -22,7 +23,7 @@ export default function Navbar({ theme, toggleTheme, username, onLogout }) {
     <nav className="navbar navbar-expand-lg navbar-custom fixed-top py-2">
       <div className="container">
         <Link className="navbar-brand d-flex align-items-center" to="/">
-          <span>TOEIC 600 Vocabulary</span>
+          <span>TOEIC Study Portal</span>
         </Link>
 
         <button

@@ -34,7 +34,7 @@ SECRET_KEY  = "TOEIC600_SECRET_CHANGE_ME_IN_PROD"
 ALGORITHM   = "HS256"
 TOKEN_HOURS = 72   # token sống 3 ngày
 
-VOCAB_PATH = "c:/Users/ACER/Desktop/TOIEC/data/toeic600.json"
+VOCAB_PATH = "C:/Users/ACER/Desktop/Học TOEIC/data/toeic600.json"
 
 # ─── Auth helpers ─────────────────────────────────────────────────────────────
 bearer = HTTPBearer()

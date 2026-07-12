@@ -8,6 +8,9 @@ export default function Dashboard() {
   const [progress, setProgress] = useState(null);
   const [loading, setLoading] = useState(true);
 
+  const [completedGrammarCount, setCompletedGrammarCount] = useState(0);
+  const totalGrammarTopics = 23;
+
   useEffect(() => {
     async function loadData() {
       try {
@@ -24,6 +27,13 @@ export default function Dashboard() {
     loadData();
   }, []);
 
+  useEffect(() => {
+    const savedCompleted = localStorage.getItem('grammar_completed');
+    if (savedCompleted) {
+      setCompletedGrammarCount(JSON.parse(savedCompleted).length);
+    }
+  }, []);
+
   if (loading || !progress) {
     return (
       <div className="text-center py-5">
@@ -37,7 +47,7 @@ export default function Dashboard() {
   const completionRate = totalWords > 0 ? Math.round((progress.learned.length / totalWords) * 100) : 0;
   const wrongWordsCount = Object.keys(progress.wrong).length;
 
-
+  const grammarCompletionRate = Math.round((completedGrammarCount / totalGrammarTopics) * 100);
 
   // Decide Continue Study button path
   const handleContinueStudy = () => {
@@ -70,11 +80,16 @@ export default function Dashboard() {
         <div className="col-12">
           <div className="hero-banner d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-4">
             <div>
-              <h1 className="fw-bold mb-2">Chinh phục 600 từ vựng TOEIC!</h1>
-              <p className="mb-4 opacity-90">Phương pháp học flashcard thông minh kết hợp làm trắc nghiệm giúp ghi nhớ từ vựng hiệu quả.</p>
-              <button onClick={handleContinueStudy} className="btn btn-game btn-game-primary px-4 py-2 text-white">
-                {progress.last_topic ? `Tiếp tục học: ${progress.last_topic}` : 'Bắt đầu học ngay'}
-              </button>
+              <h1 className="fw-bold mb-2">Chinh phục TOEIC điểm cao!</h1>
+              <p className="mb-4 opacity-90">Hệ thống thông minh giúp bạn làm chủ 600 từ vựng và toàn bộ 23 chuyên đề ngữ pháp TOEIC Reading.</p>
+              <div className="d-flex gap-2 flex-wrap">
+                <button onClick={handleContinueStudy} className="btn btn-game btn-game-primary px-4 py-2 text-white">
+                  {progress.last_topic ? `Học tiếp từ vựng: ${progress.last_topic}` : 'Học Từ vựng ngay'}
+                </button>
+                <Link to="/grammar" className="btn btn-game btn-game-outline text-white border-white px-4 py-2 hover-bg-white">
+                  Học Ngữ pháp TOEIC
+                </Link>
+              </div>
             </div>
             <div className="d-flex gap-3 align-items-center">
               <div 
@@ -101,29 +116,52 @@ export default function Dashboard() {
 
       {/* Statistics */}
       <section className="row g-4 mb-5">
-        <div className="col-12">
-          <div className="game-card">
-            <h4 className="fw-bold mb-4">Tiến độ tổng quan</h4>
-            <div className="row g-4 text-center align-items-center mb-4">
-              <div className="col-6 col-md-3">
-                <div className="fs-2 fw-bold text-primary">{progress.completed.length}/{totalTopics}</div>
+        <div className="col-12 col-md-6">
+          <div className="game-card h-100">
+            <h4 className="fw-bold mb-3 d-flex align-items-center justify-content-between">
+              <span>Tiến độ Từ vựng</span>
+              <span className="badge bg-primary text-white rounded-pill small" style={{ fontSize: '0.75rem' }}>{completionRate}%</span>
+            </h4>
+            <div className="row g-3 text-center align-items-center mb-3">
+              <div className="col-6">
+                <div className="fs-3 fw-bold text-primary">{progress.completed.length}/{totalTopics}</div>
                 <div className="text-muted small">Chủ đề hoàn thành</div>
               </div>
-              <div className="col-6 col-md-3">
-                <div className="fs-2 fw-bold text-primary">{progress.learned.length}/{totalWords}</div>
+              <div className="col-6">
+                <div className="fs-3 fw-bold text-primary">{progress.learned.length}/{totalWords}</div>
                 <div className="text-muted small">Từ vựng đã học</div>
               </div>
-              <div className="col-6 col-md-3">
-                <div className="fs-2 fw-bold text-primary">{wrongWordsCount}</div>
-                <div className="text-muted small">Từ vựng cần ôn tập</div>
+            </div>
+            <div className="progress-container" style={{ height: '10px' }}>
+              <div className="progress-bar-animated" style={{ width: `${completionRate}%` }}></div>
+            </div>
+            <div className="mt-3 text-end">
+              <Link to="/topics" className="text-decoration-none small fw-bold">Chi tiết từ vựng →</Link>
+            </div>
+          </div>
+        </div>
+
+        <div className="col-12 col-md-6">
+          <div className="game-card h-100">
+            <h4 className="fw-bold mb-3 d-flex align-items-center justify-content-between">
+              <span>Tiến độ Ngữ pháp</span>
+              <span className="badge bg-success text-white rounded-pill small" style={{ fontSize: '0.75rem' }}>{grammarCompletionRate}%</span>
+            </h4>
+            <div className="row g-3 text-center align-items-center mb-3">
+              <div className="col-6">
+                <div className="fs-3 fw-bold text-success">{completedGrammarCount}/{totalGrammarTopics}</div>
+                <div className="text-muted small">Chuyên đề hoàn thành</div>
               </div>
-              <div className="col-6 col-md-3">
-                <div className="fs-2 fw-bold text-primary">{completionRate}%</div>
-                <div className="text-muted small">Tỷ lệ hoàn thành</div>
+              <div className="col-6">
+                <div className="fs-3 fw-bold text-success">{grammarCompletionRate}%</div>
+                <div className="text-muted small">Tỷ lệ nắm vững</div>
               </div>
             </div>
-            <div className="progress-container">
-              <div className="progress-bar-animated" style={{ width: `${completionRate}%` }}></div>
+            <div className="progress-container" style={{ height: '10px' }}>
+              <div className="progress-bar-animated bg-success" style={{ width: `${grammarCompletionRate}%`, background: 'var(--success)' }}></div>
+            </div>
+            <div className="mt-3 text-end">
+              <Link to="/grammar" className="text-decoration-none text-success small fw-bold">Chi tiết ngữ pháp →</Link>
             </div>
           </div>
         </div>

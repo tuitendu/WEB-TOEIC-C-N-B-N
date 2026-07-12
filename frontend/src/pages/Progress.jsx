@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { API } from '../api';
+import { grammarData } from '../data/grammarData';
 
 export default function Progress() {
   const navigate = useNavigate();
@@ -47,6 +48,28 @@ export default function Progress() {
   // Active study minutes
   const studyMinutes = Math.round(progress.total_study_time / 60);
 
+  // ─── Grammar Stats from LocalStorage ──────────────────────────────────────
+  const [grammarCompleted, setGrammarCompleted] = useState([]);
+  const [grammarHistory, setGrammarHistory] = useState({});
+  const totalGrammarTopics = 23;
+
+  useEffect(() => {
+    const savedCompleted = localStorage.getItem('grammar_completed');
+    if (savedCompleted) {
+      setGrammarCompleted(JSON.parse(savedCompleted));
+    }
+    const savedHistory = localStorage.getItem('grammar_quiz_history');
+    if (savedHistory) {
+      setGrammarHistory(JSON.parse(savedHistory));
+    }
+  }, []);
+
+  const grammarCompletedCount = grammarCompleted.length;
+  const grammarHistoryItems = Object.keys(grammarHistory).map(key => ({
+    topicId: key,
+    ...grammarHistory[key]
+  }));
+
   // Difficulty counts (Map all database words)
   let easyTotal = 0, mediumTotal = 0, hardTotal = 0;
   let easyLearned = 0, mediumLearned = 0, hardLearned = 0;
@@ -76,6 +99,11 @@ export default function Progress() {
     if (confirmReset) {
       try {
         await API.resetProgress();
+        // Xóa thêm localStorage liên quan đến Grammar
+        localStorage.removeItem('grammar_completed');
+        localStorage.removeItem('grammar_quiz_history');
+        localStorage.removeItem('grammar_last_active_date');
+        localStorage.removeItem('grammar_last_active_topic');
         alert("Đã đặt lại toàn bộ tiến độ!");
         navigate('/');
       } catch (err) {
@@ -98,7 +126,7 @@ export default function Progress() {
 
       {/* Stats Grid */}
       <section className="row g-4 mb-5">
-        <div className="col-6 col-md-4 col-lg-2">
+        <div className="col-6 col-md-3 col-lg-2">
           <div className="game-card text-center p-3 d-flex flex-column align-items-center justify-content-center">
             <div className="d-flex align-items-center justify-content-center mb-1">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="#F59E0B" stroke="#F59E0B" strokeWidth="0.5" className="me-1">
@@ -109,33 +137,33 @@ export default function Progress() {
             <h4 className="fw-bold m-0 text-primary">{progress.streak} ngày</h4>
           </div>
         </div>
-        <div className="col-6 col-md-4 col-lg-2">
+        <div className="col-6 col-md-3 col-lg-2">
           <div className="game-card text-center p-3">
             <span className="text-muted small d-block mb-1">Từ đã học</span>
             <h4 className="fw-bold m-0 text-primary">{learnedCount}/{totalWords}</h4>
           </div>
         </div>
-        <div className="col-6 col-md-4 col-lg-2">
+        <div className="col-6 col-md-3 col-lg-2">
           <div className="game-card text-center p-3">
-            <span className="text-muted small d-block mb-1">Đã xong</span>
+            <span className="text-muted small d-block mb-1">Xong Từ vựng</span>
             <h4 className="fw-bold m-0 text-primary">{completedTopicsCount}/{totalTopics} bài</h4>
           </div>
         </div>
-        <div className="col-6 col-md-4 col-lg-2">
+        <div className="col-6 col-md-3 col-lg-2">
+          <div className="game-card text-center p-3">
+            <span className="text-muted small d-block mb-1">Xong Ngữ pháp</span>
+            <h4 className="fw-bold m-0 text-success">{grammarCompletedCount}/{totalGrammarTopics} bài</h4>
+          </div>
+        </div>
+        <div className="col-6 col-md-3 col-lg-2">
           <div className="game-card text-center p-3">
             <span className="text-muted small d-block mb-1">Đã làm Quiz</span>
-            <h4 className="fw-bold m-0 text-primary">{progress.history.length} lượt</h4>
+            <h4 className="fw-bold m-0 text-primary">{progress.history.length + grammarHistoryItems.length} lượt</h4>
           </div>
         </div>
-        <div className="col-6 col-md-4 col-lg-2">
+        <div className="col-6 col-md-3 col-lg-2">
           <div className="game-card text-center p-3">
-            <span className="text-muted small d-block mb-1">Trung bình</span>
-            <h4 className="fw-bold m-0 text-primary">{avgScore}%</h4>
-          </div>
-        </div>
-        <div className="col-6 col-md-4 col-lg-2">
-          <div className="game-card text-center p-3">
-            <span className="text-muted small d-block mb-1">Thời gian</span>
+            <span className="text-muted small d-block mb-1">Học Từ vựng</span>
             <h4 className="fw-bold m-0 text-primary">{studyMinutes} phút</h4>
           </div>
         </div>
@@ -216,40 +244,97 @@ export default function Progress() {
       </section>
 
       {/* History Log */}
-      <section className="row">
+      <section className="row mt-4">
         <div className="col-12">
           <div className="game-card">
             <h5 className="fw-bold mb-4">Lịch sử làm bài trắc nghiệm</h5>
-            {progress.history.length > 0 ? (
-              <div className="table-responsive">
-                <table className="table table-hover align-middle">
-                  <thead>
-                    <tr>
-                      <th>#</th>
-                      <th>Chủ đề kiểm tra</th>
-                      <th>Số câu đúng</th>
-                      <th>Tỷ lệ đúng</th>
-                      <th>Thời gian làm bài</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {progress.history.map((h, idx) => (
-                      <tr key={h.id}>
-                        <td>{idx + 1}</td>
-                        <td className="fw-bold">{h.topic}</td>
-                        <td>{h.score}/{h.total}</td>
-                        <td className="fw-semibold text-success">{h.percentage}%</td>
-                        <td className="text-muted small">{h.date}</td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
+            
+            <ul className="nav nav-tabs mb-3 border-color" id="historyTab" role="tablist">
+              <li className="nav-item" role="presentation">
+                <button className="nav-link active fw-semibold text-primary" id="vocab-tab" data-bs-toggle="tab" data-bs-target="#vocab-history" type="button" role="tab">
+                  ✏️ Lịch sử Từ vựng
+                </button>
+              </li>
+              <li className="nav-item" role="presentation">
+                <button className="nav-link fw-semibold text-success" id="grammar-tab" data-bs-toggle="tab" data-bs-target="#grammar-history" type="button" role="tab">
+                  📚 Lịch sử Ngữ pháp
+                </button>
+              </li>
+            </ul>
+
+            <div className="tab-content" id="historyTabContent">
+              {/* Vocab History */}
+              <div className="tab-pane fade show active" id="vocab-history" role="tabpanel">
+                {progress.history.length > 0 ? (
+                  <div className="table-responsive">
+                    <table className="table table-hover align-middle">
+                      <thead>
+                        <tr>
+                          <th>#</th>
+                          <th>Chủ đề kiểm tra</th>
+                          <th>Số câu đúng</th>
+                          <th>Tỷ lệ đúng</th>
+                          <th>Thời gian làm bài</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {progress.history.map((h, idx) => (
+                          <tr key={h.id}>
+                            <td>{idx + 1}</td>
+                            <td className="fw-bold">{h.topic}</td>
+                            <td>{h.score}/{h.total}</td>
+                            <td className="fw-semibold text-success">{h.percentage}%</td>
+                            <td className="text-muted small">{h.date}</td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                ) : (
+                  <div className="text-center py-4 text-muted">
+                    Chưa có dữ liệu làm bài kiểm tra từ vựng.
+                  </div>
+                )}
               </div>
-            ) : (
-              <div className="text-center py-4 text-muted">
-                Chưa có dữ liệu làm bài kiểm tra.
+
+              {/* Grammar History */}
+              <div className="tab-pane fade" id="grammar-history" role="tabpanel">
+                {grammarHistoryItems.length > 0 ? (
+                  <div className="table-responsive">
+                    <table className="table table-hover align-middle">
+                      <thead>
+                        <tr>
+                          <th>#</th>
+                          <th>Chuyên đề Ngữ pháp</th>
+                          <th>Số câu đúng</th>
+                          <th>Tỷ lệ đúng</th>
+                          <th>Ngày kiểm tra</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {grammarHistoryItems.map((h, idx) => {
+                          const topic = grammarData.find(t => t.id === parseInt(h.topicId));
+                          return (
+                            <tr key={h.topicId}>
+                              <td>{idx + 1}</td>
+                              <td className="fw-bold">{topic ? topic.title : `Chuyên đề ${h.topicId}`}</td>
+                              <td>{h.correct}/{h.total}</td>
+                              <td className="fw-semibold text-success">{h.score}%</td>
+                              <td className="text-muted small">{h.date}</td>
+                            </tr>
+                          );
+                        })}
+                      </tbody>
+                    </table>
+                  </div>
+                ) : (
+                  <div className="text-center py-4 text-muted">
+                    Chưa có dữ liệu làm bài kiểm tra ngữ pháp.
+                  </div>
+                )}
               </div>
-            )}
+            </div>
+
           </div>
         </div>
       </section>

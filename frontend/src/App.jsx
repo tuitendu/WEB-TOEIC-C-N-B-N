@@ -7,6 +7,9 @@ import Study from './pages/Study';
 import Quiz from './pages/Quiz';
 import Review from './pages/Review';
 import Progress from './pages/Progress';
+import Grammar from './pages/Grammar';
+import GrammarStudy from './pages/GrammarStudy';
+import GrammarQuiz from './pages/GrammarQuiz';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import { API, getUsername, clearAuth, isLoggedIn } from './api';
@@ -131,6 +134,9 @@ function AppInner() {
           <Route path="/quiz/:topicName"  element={<Quiz />} />
           <Route path="/review"           element={<Review />} />
           <Route path="/progress"         element={<Progress />} />
+          <Route path="/grammar"          element={<Grammar />} />
+          <Route path="/grammar/study/:topicId" element={<GrammarStudy />} />
+          <Route path="/grammar/quiz/:topicId"  element={<GrammarQuiz />} />
         </Routes>
       </main>
 
