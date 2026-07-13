@@ -7,6 +7,8 @@ import mysql.connector
 from fastapi import FastAPI, HTTPException, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 from pydantic import BaseModel
 from jose import JWTError, jwt
 from dotenv import load_dotenv
@@ -350,6 +352,37 @@ def reset_progress(user=Depends(get_current_user)):
     for key, val in [("streak","0"),("last_active_date",""),("last_topic",""),("total_study_time","0")]:
         q("UPDATE stats SET value=%s WHERE user_id=%s AND `key`=%s", (val, uid, key))
     return {"status": "success"}
+
+# ─── Serve Frontend ──────────────────────────────────────────────────────────
+# Resolve the frontend dist folder path
+frontend_dist_path = os.path.abspath(os.path.join(PROJECT_ROOT, "frontend", "dist"))
+
+if os.path.exists(frontend_dist_path):
+    # Mount the /assets folder for static assets (JS, CSS, images)
+    assets_path = os.path.join(frontend_dist_path, "assets")
+    if os.path.exists(assets_path):
+        app.mount("/assets", StaticFiles(directory=assets_path), name="assets")
+
+    # Serve index.html or other static files in frontend/dist
+    @app.get("/{catchall:path}")
+    def serve_frontend(catchall: str):
+        # Ignore API and documentation routes
+        if catchall.startswith("api/") or catchall.startswith("docs") or catchall.startswith("openapi.json"):
+            raise HTTPException(status_code=404)
+        
+        # If the specific file exists (e.g. favicon.svg), serve it
+        file_path = os.path.join(frontend_dist_path, catchall)
+        if catchall and os.path.exists(file_path) and os.path.isfile(file_path):
+            return FileResponse(file_path)
+            
+        # Otherwise, fall back to index.html (React routing)
+        index_file = os.path.join(frontend_dist_path, "index.html")
+        if os.path.exists(index_file):
+            return FileResponse(index_file)
+        
+        raise HTTPException(status_code=404, detail="Index file not found")
+else:
+    print(f"==> Warning: Frontend dist folder not found at: {frontend_dist_path}")
 
 if __name__ == "__main__":
     import uvicorn
