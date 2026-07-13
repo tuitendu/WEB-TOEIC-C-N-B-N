@@ -11,7 +11,21 @@ import os
 # ── Force sync with GitHub (fixes Pterodactyl git pull conflicts) ──
 project_root = os.path.dirname(os.path.abspath(__file__))
 
-if os.path.isdir(os.path.join(project_root, ".git")):
+print("==> Checking GitHub synchronization...")
+git_dir = os.path.join(project_root, ".git")
+git_initialized = True
+
+if not os.path.isdir(git_dir):
+    print("==> .git folder not found on server! Initializing Git repository...")
+    try:
+        subprocess.run(["git", "init"], cwd=project_root, check=True, capture_output=True)
+        subprocess.run(["git", "remote", "add", "origin", "https://github.com/tuitendu/WEB-TOEIC-C-N-B-N.git"], cwd=project_root, check=True, capture_output=True)
+        print("==> Git repository initialized and remote set.")
+    except Exception as e:
+        print(f"==> Failed to initialize git: {e}")
+        git_initialized = False
+
+if git_initialized:
     print("==> Syncing code from GitHub...")
     try:
         fetch = subprocess.run(
