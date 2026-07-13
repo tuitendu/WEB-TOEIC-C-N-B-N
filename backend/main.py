@@ -9,6 +9,10 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from pydantic import BaseModel
 from jose import JWTError, jwt
+from dotenv import load_dotenv
+
+# Load .env file
+load_dotenv()
 
 app = FastAPI(title="TOEIC 600 Vocabulary API")
 
@@ -21,20 +25,36 @@ app.add_middleware(
 )
 
 # ─── Config ───────────────────────────────────────────────────────────────────
+DB_HOST = os.getenv("DB_HOST", "localhost")
+DB_PORT = int(os.getenv("DB_PORT", "3306"))
+DB_USER = os.getenv("DB_USER", "root")
+DB_PASSWORD = os.getenv("DB_PASSWORD", "")
+DB_NAME = os.getenv("DB_NAME", "600toeic")
+
 DB_CONFIG = {
-    "host":       "localhost",
-    "user":       "root",
-    "password":   "",           # ← đổi nếu cần
-    "database":   "600toeic",
+    "host":       DB_HOST,
+    "port":       DB_PORT,
+    "user":       DB_USER,
+    "password":   DB_PASSWORD,
+    "database":   DB_NAME,
     "charset":    "utf8mb4",
     "autocommit": True,
 }
 
-SECRET_KEY  = "TOEIC600_SECRET_CHANGE_ME_IN_PROD"
-ALGORITHM   = "HS256"
-TOKEN_HOURS = 72   # token sống 3 ngày
+SECRET_KEY  = os.getenv("SECRET_KEY", "TOEIC600_SECRET_CHANGE_ME_IN_PROD")
+ALGORITHM   = os.getenv("ALGORITHM", "HS256")
+TOKEN_HOURS = int(os.getenv("TOKEN_HOURS", "72"))   # token sống 3 ngày
 
-VOCAB_PATH = "C:/Users/ACER/Desktop/Học TOEIC/data/toeic600.json"
+# Determine VOCAB_PATH dynamically relative to project root
+BACKEND_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.dirname(BACKEND_DIR)
+
+# Allow override from env, but handle relative paths correctly
+env_vocab_path = os.getenv("VOCAB_PATH", "data/toeic600.json")
+if not os.path.isabs(env_vocab_path):
+    VOCAB_PATH = os.path.abspath(os.path.join(PROJECT_ROOT, env_vocab_path))
+else:
+    VOCAB_PATH = env_vocab_path
 
 # ─── Auth helpers ─────────────────────────────────────────────────────────────
 bearer = HTTPBearer()
@@ -86,7 +106,7 @@ def ensure_db():
     cfg = {k: v for k, v in DB_CONFIG.items() if k != "database"}
     conn = mysql.connector.connect(**cfg)
     cur  = conn.cursor()
-    cur.execute("CREATE DATABASE IF NOT EXISTS `600toeic` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci")
+    cur.execute(f"CREATE DATABASE IF NOT EXISTS `{DB_NAME}` CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci")
     conn.commit(); cur.close(); conn.close()
 
 def init_db():
